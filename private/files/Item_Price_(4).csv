@@ -1,0 +1,49 @@
+Data Import Template,,,
+Table:,Item Price,,
+,,,
+,,,
+Notes:,,,
+Please do not change the template headings.,,,
+First data column must be blank.,,,
+"If you are uploading new records, leave the ""name"" (ID) column blank.",,,
+"If you are uploading new records, ""Naming Series"" becomes mandatory, if present.",,,
+Only mandatory fields are necessary for new records. You can delete non-mandatory columns if you wish.,,,
+"For updating, you can update only selective columns.",,,
+You can only upload upto 5000 records in one go. (may be less in some cases),,,
+,,,
+DocType:,Item Price,,
+Column Labels:,Item Code,Price List,Rate
+Column Name:,item_code,price_list,price_list_rate
+Mandatory:,Yes,Yes,Yes
+Type:,Link,Link,Currency
+Info:,Valid Item,Valid Price List,
+Start entering data below this line,,,
+,دبل فيس ,Standard Buying,18
+,مناديل مكتب ,Standard Buying,13
+,مناديل تواليت,Standard Buying,6
+,معطر جو ,Standard Buying,24
+,ريد للحشرات ,Standard Buying,14
+,بليدج سائل ,Standard Buying,39
+,بليدج بخاخ,Standard Buying,25
+,فروز تواليت ,Standard Buying,14
+,فرشه تواليت ,Standard Buying,12
+,كلوركس ارضيات ,Standard Buying,9
+,رينول 500,Standard Buying,42
+,ديتول 500,Standard Buying,61
+,منظف زجاج ,Standard Buying,17
+,اكياس رابش ,Standard Buying,24
+,فرشه ارضيه ,Standard Buying,14
+,مكنسه ارضيه ,Standard Buying,13
+,شرشوبه,Standard Buying,12
+,مساحه ارضيه ,Standard Buying,14
+,فلاش منظف ارضيات ,Standard Buying,12
+,مسحوق غسيل مركز ,Standard Buying,35
+,سلك استانلس ,Standard Buying,3
+,فوطه مطبخ ,Standard Buying,3
+,بريل اطباق ,Standard Buying,12
+,اسبونشه غسيل ,Standard Buying,3
+,هاربيك ,Standard Buying,24
+,صابون سائل ,Standard Buying,140
+,معطر ارضيات,Standard Buying,24
+,جلو ,Standard Buying,7
+,شمع,Standard Buying,2

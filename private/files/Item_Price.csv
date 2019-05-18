@@ -1,0 +1,170 @@
+ Data Import Template ,,,
+ Table: ,Item Price,,
+,,,
+,,,
+Notes:,,,
+Please do not change the template headings.,,,
+First data column must be blank.,,,
+"If you are uploading new records, leave the ""name"" (ID) column blank.",,,
+"If you are uploading new records, ""Naming Series"" becomes mandatory, if present.",,,
+Only mandatory fields are necessary for new records. You can delete non-mandatory columns if you wish.,,,
+"For updating, you can update only selective columns.",,,
+You can only upload upto 5000 records in one go. (may be less in some cases),,,
+,,,
+DocType:,Item Price,,
+Column Labels:,Item Code,Price List,Rate
+Column Name:,item_code,price_list,price_list_rate
+Mandatory:,Yes,Yes,Yes
+Type:,Link,Link,Currency
+Info:,Valid Item,Valid Price List,
+Start entering data below this line,,,
+,General English ,Group,575
+,Conversation,Group,575
+,Placement Test,Group,100
+,Membership,Group,0
+,Business English - Bulats ,Group,3800
+,Placement Test - Business English,Group,250
+,Certificats,Group,50
+,General English ,Privet,175
+,Conversation,Privet,175
+,Placement Test,Privet,100
+,Business English - Bulats ,Privet,250
+,General English ,Online,135
+,Conversation,Online,135
+,Business English - Bulats ,Online,250
+,General English ,Out of Egypt,135
+,Business English - Bulats ,HTI,2950
+,German,Group,790
+,Italian,Group,790
+,French,Group,790
+,Spanish,Group,790
+,Turkish,Group,1200
+,Arabic,Group,2200
+,Russian,Group,1200
+,Placement Test,Group,100
+,Membership,Group,0
+,Certificats,Group,50
+,German,Privet,250
+,Italian,Privet,250
+,French,Privet,250
+,Spanish,Privet,250
+,Turkish,Privet,250
+,Arabic,Privet,250
+,Russian,Privet,250
+,Placement Test,Privet,250
+,Membership,Privet,0
+,IELTS,Ì.ã. 2?600?00 ,250
+,Toefl,Ì.ã. 2?600?00 ,250
+,Business MGT,Group,3950
+,Marketing Diploma,Group,3950
+,E-Marketing Diploma,Group,2950
+,HR Diploma ,Group,3950
+,PMP,Group,3950
+,Supply Chain,Group,3950
+,Hosiptal Management,Group,7600
+,School Adminstration,Group,5500
+,Customer Service,Group,2750
+,Performance Management,Group,0
+,Sales Management,Group,3950
+,Membership,Group,0
+,Business MGT,Privet,8000
+,Marketing Diploma,Privet,8000
+,E-Marketing Diploma,Privet,200
+,HR Diploma ,Privet,8000
+,PMP,Privet,13000
+,PMP - Privet English,Privet,0
+,Supply Chain,Privet,13000
+,Hosiptal Management,Privet,19500
+,School Adminstration,Privet,8000
+,Customer Service,Privet,8000
+,Performance Management,Privet,0
+,Sales Management,Privet,8000
+,Business MGT,Online,6000
+,Marketing Diploma,Online,6000
+,HR Diploma ,Online,6000
+,PMP,Online,6000
+,Supply Chain,Online,6000
+,Hosiptal Management,Online,8000
+,School Adminstration,Online,6000
+,Customer Service,Online,6000
+,Performance Management,Online,0
+,Sales Management,Online,6000
+,Business MGT,Out of Egypt,8000
+,Marketing Diploma,Out of Egypt,8000
+,HR Diploma ,Out of Egypt,8000
+,PMP,Out of Egypt,8000
+,Supply Chain,Out of Egypt,8000
+,Hosiptal Management,Out of Egypt,10000
+,School Adminstration,Out of Egypt,8000
+,Customer Service,Out of Egypt,8000
+,Performance Management,Out of Egypt,0
+,Sales Management,Out of Egypt,8000
+,PMP - Privet English,HTI,3900
+,ICDL ,Group,1200
+,ICDL - Exam ,Group,800
+,ICDL - Exam - NEN,Group,550
+,Autocade ,Group,875
+,3D Max,Group,875
+,Photo Shop,Group,875
+,Adobe in Design,Group,1100
+,illustrator,Group,875
+,CCNA,Group,4400
+,After Effect,Group,1100
+,Preimavera,Group,2750
+,Graphic,Group,2100
+,Rivet,Group,1650
+,Swish max,Group,950
+,ICDL ,Privet,150
+,ICDL - Exam ,Privet,0
+,ICDL - Exam - NEN,Privet,0
+,Autocade ,Privet,175
+,3D Max,Privet,175
+,Photo Shop,Privet,175
+,Adobe in Design,Privet,175
+,illustrator,Privet,175
+,CCNA,Privet,175
+,After Effect,Privet,175
+,Flash,Privet,0
+,Preimavera,Privet,175
+,Graphic,Privet,175
+,Rivet,Privet,175
+,Swish max,Privet,175
+,Montessori,Group,2700
+,Montessori - English ,Group,10000
+,TEFL,Group,7600
+,Advanced Child Psychology,Group,0
+,Math Diploma,Group,4900
+,Science Diploma,Group,4900
+,Training Diploma - TOT,Group,4800
+,ADHD,Group,1200
+,YL Teachers Certificate,Group,3000
+,Admission Test,Group,250
+,Montessori,Online,3000
+,TEFL,Online,7600
+,Advanced Child Psychology,Online,0
+,Math Diploma,Online,5500
+,Science Diploma,Online,5500
+,ADHD,Online,2000
+,YL Teachers Certificate,Online,4000
+,Montessori,Privet,10500
+,TEFL,Privet,11500
+,Advanced Child Psychology,Privet,0
+,Math Diploma,Privet,10000
+,Science Diploma,Privet,10000
+,ADHD,Privet,4800
+,YL Teachers Certificate,Privet,11500
+,Montessori,Out of Egypt,300
+,TEFL,Out of Egypt,550
+,Math Diploma,Out of Egypt,10000
+,Science Diploma,Out of Egypt,10000
+,YL Teachers Certificate,Out of Egypt,500
+,Montessori,HTI,3600
+,TEFL,HTI,7600
+,Math Diploma,HTI,5600
+,Science Diploma,HTI,5600
+,English for Kids,Group,450
+,Other Language for Kids,Group,795
+,Summer School,Group,1250
+,Mid Year,Group,1000
+,English for Kids,Privet,1750
+,Other Language for Kids,Privet,250

@@ -1,0 +1,34 @@
+Data Import Template,,,,,,,,,,,
+Table:,Supplier,,,,,,,,,,
+,,,,,,,,,,,
+,,,,,,,,,,,
+Notes:,,,,,,,,,,,
+Please do not change the template headings.,,,,,,,,,,,
+First data column must be blank.,,,,,,,,,,,
+"If you are uploading new records, leave the ""name"" (ID) column blank.",,,,,,,,,,,
+"If you are uploading new records, ""Naming Series"" becomes mandatory, if present.",,,,,,,,,,,
+Only mandatory fields are necessary for new records. You can delete non-mandatory columns if you wish.,,,,,,,,,,,
+"For updating, you can update only selective columns.",,,,,,,,,,,
+You can only upload upto 5000 records in one go. (may be less in some cases),,,,,,,,,,,
+,,,,,,,,,,,
+DocType:,Supplier,,,,,~,Allowed To Transact With,companies,~,Party Account,accounts
+Column Labels:,Supplier Name,Supplier Group,Supplier Type,Website,Supplier Details,,Company,,,Company,Account
+Column Name:,supplier_name,supplier_group,supplier_type,website,supplier_details,~,company,~,~,company,account
+Mandatory:,Yes,Yes,Yes,No,No,,Yes,,,Yes,Yes
+Type:,Data,Link,Select,Data,Text,,Link,,,Link,Link
+Info:,,Valid Supplier Group,"One of: Company, Individual",,,,Valid Company,,,Valid Company,Valid Account
+Start entering data below this line,,,,,,,,,,,
+,El Bertawy Market,Paint Tools,Company,,Hussam Adel,,,,,,
+,El Moazen For Print,Printing works,Company,,Ali Badr,,,,,,
+,"Sinbad Express For
+ Trading & Air Conditioning"," Trading &
+ Air Conditioning",Company,,Atef El sharkawy,,,,,,
+,El Dora For Print,Printing works,Company,www.dorraprint.com ,Maiada ,,,,,,
+,Nahdet Masr ,books ,Company,www.Nahdetmisr.com,Waleed Sayed,,,,,,
+,Mouse For Marketing ,"Computers &
+ Camera",Company,,Fathy Mohamed,,,,,,
+,Aghakhan Elevators,Elevators,Company,aghakhanelvators2@yahoo.com ,Ali Ahmed ,,,,,,
+,Oriental Supplies,Printing Supplies,Company,ortsupplies.6oct@hotmail.com ,hassan ,,,,,,
+,ERP Next Company,System Software,Company,info@inet.works,Mohamed Abou Ali,,,,,,
+,yellowpages Masr ,Marketing ,Company,yellowpages.com.eg,Ahmed Shafie,,,,,,
+,ICDL Arabia Egypt,Exams ,Company,icdlegypt.gov.eg,,,,,,,

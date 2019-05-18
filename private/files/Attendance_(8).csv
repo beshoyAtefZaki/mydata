@@ -1,0 +1,39 @@
+Data Import Template,,,,,,,
+Table:,Attendance,,,,,,
+,,,,,,,
+,,,,,,,
+Notes:,,,,,,,
+Please do not change the template headings.,,,,,,,
+First data column must be blank.,,,,,,,
+"If you are uploading new records, leave the ""name"" (ID) column blank.",,,,,,,
+"If you are uploading new records, ""Naming Series"" becomes mandatory, if present.",,,,,,,
+Only mandatory fields are necessary for new records. You can delete non-mandatory columns if you wish.,,,,,,,
+"For updating, you can update only selective columns.",,,,,,,
+You can only upload upto 5000 records in one go. (may be less in some cases),,,,,,,
+,,,,,,,
+DocType:,Attendance,,,,,,
+Column Labels:,Series,Status,Attendance Date,Company,Fingerprint,Start Time,End Time
+Column Name:,naming_series,status,attendance_date,company,fingerprint,start_time,end_time
+Mandatory:,Yes,Yes,Yes,Yes,No,No,No
+Type:,Select,Select,Date,Link,Data,Time,Time
+Info:,One of: HR-ATT-.YYYY.-,"One of: Present, Absent, On Leave, Half Day",dd-mm-yyyy,Valid Company,,,
+Start entering data below this line,,,,,,,
+,HR-ATT-.YYYY.-,Present,01-12-2018,الرئيسى,39,14:44:00,20:47:00
+,HR-ATT-.YYYY.-,Present,02-12-2018,الرئيسى,39,14:52:00,20:51:00
+,HR-ATT-.YYYY.-,Present,03-12-2018,الرئيسى,39,14:48:00,21:08:00
+,HR-ATT-.YYYY.-,Present,04-12-2018,الرئيسى,39,14:51:00,20:30:00
+,HR-ATT-.YYYY.-,Present,05-12-2018,الرئيسى,39,14:49:00,20:56:00
+,HR-ATT-.YYYY.-,Present,06-12-2018,الرئيسى,39,11:55:00,19:26:00
+,HR-ATT-.YYYY.-,On Leave,08-12-2018,الرئيسى,39,,
+,HR-ATT-.YYYY.-,Present,09-12-2018,الرئيسى,39,15:13:00,21:03:00
+,HR-ATT-.YYYY.-,Present,10-12-2018,الرئيسى,39,15:16:00,21:15:00
+,HR-ATT-.YYYY.-,Present,11-12-2018,الرئيسى,39,15:11:00,21:16:00
+,HR-ATT-.YYYY.-,Present,12-12-2018,الرئيسى,39,14:53:00,21:00:00
+,HR-ATT-.YYYY.-,Present,13-12-2018,الرئيسى,39,11:52:00,18:05:00
+,HR-ATT-.YYYY.-,Present,15-12-2018,الرئيسى,39,14:45:00,21:11:00
+,HR-ATT-.YYYY.-,Present,16-12-2018,الرئيسى,39,14:49:00,21:06:00
+,HR-ATT-.YYYY.-,Present,17-12-2018,الرئيسى,39,14:50:00,21:56:00
+,HR-ATT-.YYYY.-,Present,18-12-2018,الرئيسى,39,14:53:00,20:29:00
+,HR-ATT-.YYYY.-,Present,19-12-2018,الرئيسى,39,14:48:00,21:01:00
+,HR-ATT-.YYYY.-,Present,20-12-2018,الرئيسى,39,11:55:00,21:01:00
+,HR-ATT-.YYYY.-,Present,22-12-2018,الرئيسى,39,15:13:00,21:03:00

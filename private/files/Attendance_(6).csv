@@ -1,0 +1,21 @@
+Data Import Template,,,,,,,,,
+Table:,Attendance,,,,,,,,
+,,,,,,,,,
+,,,,,,,,,
+Notes:,,,,,,,,,
+Please do not change the template headings.,,,,,,,,,
+First data column must be blank.,,,,,,,,,
+"If you are uploading new records, leave the ""name"" (ID) column blank.",,,,,,,,,
+"If you are uploading new records, ""Naming Series"" becomes mandatory, if present.",,,,,,,,,
+Only mandatory fields are necessary for new records. You can delete non-mandatory columns if you wish.,,,,,,,,,
+"For updating, you can update only selective columns.",,,,,,,,,
+You can only upload upto 5000 records in one go. (may be less in some cases),,,,,,,,,
+,,,,,,,,,
+DocType:,Attendance,,,,,,,,
+Column Labels:,Series,Employee,Status,Attendance Date,Company,Leave Type,Fingerprint,Start Time,End Time
+Column Name:,naming_series,employee,status,attendance_date,company,leave_type,fingerprint,start_time,end_time
+Mandatory:,Yes,No,Yes,Yes,Yes,No,No,No,No
+Type:,Select,Link,Select,Date,Link,Link,Data,Time,Time
+Info:,One of: HR-ATT-.YYYY.-,Valid Employee,"One of: Present, Absent, On Leave, Half Day",dd-mm-yyyy,Valid Company,Valid Leave Type,,,
+Start entering data below this line,,,,,,,,,
+,HR-ATT-.YYYY.-,,Present,21-10-2018,الرئيسى,,520,10:00:00,15:00:00

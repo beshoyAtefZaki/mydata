@@ -1,0 +1,88 @@
+Data Import Template,,,
+Table:,Item,,
+,,,
+,,,
+Notes:,,,
+Please do not change the template headings.,,,
+First data column must be blank.,,,
+"If you are uploading new records, leave the ""name"" (ID) column blank.",,,
+"If you are uploading new records, ""Naming Series"" becomes mandatory, if present.",,,
+Only mandatory fields are necessary for new records. You can delete non-mandatory columns if you wish.,,,
+"For updating, you can update only selective columns.",,,
+You can only upload upto 5000 records in one go. (may be less in some cases),,,
+,,,
+DocType:,Item,,
+Column Labels:,Item Code,Item Group,Default Unit of Measure
+Column Name:,item_code,item_group,stock_uom
+Mandatory:,Yes,Yes,Yes
+Type:,Data,Link,Link
+Info:,,Valid Item Group,Valid UOM
+Start entering data below this line,استيك نقود ( 250 جرام ),Other Materials,Nos
+,استيكة ,Other Materials,Nos
+,اسطوانات DVD ,Other Materials,Nos
+,براية معدن,Other Materials,Nos
+,بشاورة Clean Board,Other Materials,Nos
+,بكرة سلوتيب صغيرة,Other Materials,Nos
+,بكرة سلوتيب عريض,Other Materials,Nos
+,بلوك نوت A4 الاكاديمية ,Other Materials,Nos
+,بلوك نوت صغير ,Other Materials,Nos
+,حافظة شفافة بكبسولة,Other Materials,Nos
+,حافظة شفافة حرف  U  ,Other Materials,Nos
+,حافظة شفافة حرف  U  - مجلد ,Other Materials,Nos
+,حجر قلم انرجيزر AA,Other Materials,Nos
+,حجر قلم انرجيزر AAA,Other Materials,Nos
+,خرامة ورق ,Other Materials,Nos
+, ورق صبانه  أبيض,Other Materials,Nos
+,ظرف A4 الاكاديمية لتسليم الشهادات,Other Materials,Nos
+,ظرف مرتبات بيضاء,Other Materials,Nos
+,علبة دبابيس دباسة عادية,Other Materials,Nos
+,علبة دبابيس دباسة كبيرة ( مقاسات ),Other Materials,Nos
+, سلاح قطر كبير (10 قطع ),Other Materials,Nos
+,قلم White Board ازرق (9*12),Other Materials,Nos
+,قلم جاف عادى,Other Materials,Nos
+,قلم رصاص عادى ( 9*12),Other Materials,Nos
+,regustration card,Other Materials,Nos
+,قلم كوريكتور,Other Materials,Nos
+,قلم ماركر الوان,Other Materials,Nos
+,كلاسير حفظ مستندات 8 سم,Other Materials,Nos
+,مسطرة معدن 30 سم,Other Materials,Nos
+,ملف مسطرة شفاف ( كبير ),Other Materials,Nos
+,ورق تصوير A4,Other Materials,Nos
+,ورق غلاف ملون (الاكاديمية) للنسخ المصورة,Other Materials,Nos
+,ورق ملون A4 ,Other Materials,Nos
+,دباسه دبابيس عاديه ,Other Materials,Nos
+,اسطوانه CD,Other Materials,Nos
+,علبه دبابيس صغيره ,Other Materials,Nos
+,كشكول سلك ,Other Materials,Nos
+,دبل فيس ,Other Materials,Nos
+,مناديل مكتب ,Other Materials,Nos
+,مناديل تواليت,Other Materials,Nos
+,معطر جو ,Other Materials,Nos
+,ريد للحشرات ,Other Materials,Nos
+,بليدج سائل ,Other Materials,Nos
+,بليدج بخاخ,Other Materials,Nos
+,فروز تواليت ,Other Materials,Nos
+,فرشه تواليت ,Other Materials,Nos
+,كلوركس ارضيات ,Other Materials,Nos
+,رينول 500,Other Materials,Nos
+,ديتول 500,Other Materials,Nos
+,منظف زجاج ,Other Materials,Nos
+,اكياس رابش ,Other Materials,Nos
+,فرشه ارضيه ,Other Materials,Nos
+,مكنسه ارضيه ,Other Materials,Nos
+,شرشوبه,Other Materials,Nos
+,مساحه ارضيه ,Other Materials,Nos
+,فلاش منظف ارضيات ,Other Materials,Nos
+,مسحوق غسيل مركز ,Other Materials,Nos
+,سلك استانلس ,Other Materials,Nos
+,فوطه مطبخ ,Other Materials,Nos
+,بريل اطباق ,Other Materials,Nos
+,اسبونشه غسيل ,Other Materials,Nos
+,هاربيك ,Other Materials,Nos
+,صابون سائل ,Other Materials,Nos
+,معطر ارضيات,Other Materials,Nos
+,فلاير حضانه ,Other Materials,Nos
+,فلاير انجليزى الرئيسى ,Other Materials,Nos
+,فلاير متنوع ,Other Materials,Nos
+,جلو ,Other Materials,Nos
+,شمع,Other Materials,Nos

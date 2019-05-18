@@ -1,0 +1,850 @@
+Data Import Template,,,,,,,,
+Table:,Item,,,,,,,
+,,,,,,,,
+,,,,,,,,
+Notes:,,,,,,,,
+Please do not change the template headings.,,,,,,,,
+First data column must be blank.,,,,,,,,
+"If you are uploading new records, leave the ""name"" (ID) column blank.",,,,,,,,
+"If you are uploading new records, ""Naming Series"" becomes mandatory, if present.",,,,,,,,
+Only mandatory fields are necessary for new records. You can delete non-mandatory columns if you wish.,,,,,,,,
+"For updating, you can update only selective columns.",,,,,,,,
+You can only upload upto 5000 records in one go. (may be less in some cases),,,,,,,,
+,,,,,,,,
+DocType:,Item,,,,,,,
+Column Labels:,Item Code,Item Group,Default Unit of Measure,Maintain Stock,Standard Selling Rate,Is Purchase Item,Last Purchase Rate,Is Sales Item
+Column Name:,item_code,item_group,stock_uom,is_stock_item,standard_rate,is_purchase_item,last_purchase_rate,is_sales_item
+Mandatory:,Yes,Yes,Yes,No,No,No,No,No
+Type:,Data,Link,Link,Check,Currency,Check,Float,Check
+Info:,,Valid Item Group,Valid UOM,0 or 1,,0 or 1,,0 or 1
+Start entering data below this line,,,,,,,,
+,Account And Finance ,Accounting,Nos,1,250,1,200,1
+,Eng For Accounting ,Accounting,Nos,1,0,1,80,1
+,Financial English ,Accounting,Nos,1,0,1,70,1
+,Contemporary Accounting ,Accounting,Nos,1,250,1,200,1
+,Cultural En counters,Accounting,Nos,1,0,1,230,1
+,Arabic Book 1,Arabic Materials ,Nos,1,150,1,150,1
+,Arabic Book 2,Arabic Materials ,Nos,1,150,1,150,1
+,Anstona Book,Arabic Materials ,Nos,1,150,1,120,1
+,Alearners Dic Of Arabic Colloquial,Arabic Materials ,Nos,1,0,1,60,1
+,Kallimni Arabi Bishweesh,Arabic Materials ,Nos,1,150,1,120,1
+,Modern Arabic 2,Arabic Materials ,Nos,1,0,1,40,1
+,Modern Arabic 1,Arabic Materials ,Nos,1,0,1,40,1
+,Spoken Arabic of Egypt ,Arabic Materials ,Nos,1,0,1,40,1
+,المسبط فى خط النسخ المستوى الثانى ,Arabic Materials ,Nos,1,0,1,40,1
+,المسبط فى خط الرقعه  المستوى الثانى ,Arabic Materials ,Nos,1,0,1,40,1
+,المسبط فى خط النسخ الجزء الاول  ,Arabic Materials ,Nos,1,0,1,40,1
+,المسبط فى خط الرقعه  الجزء الثانى ,Arabic Materials ,Nos,1,0,1,40,1
+,ابجد حيوانات ,Arabic Materials ,Nos,1,0,1,35,1
+,القواعد المشوفه للاطفال الجزء الاول ,Arabic Materials ,Nos,1,0,1,20,1
+,حروف الجمله المستوى الاول ,Arabic Materials ,Nos,1,0,1,15,1
+,الوانى الكتاب الاول,Arabic Materials ,Nos,1,35,1,20,1
+,The Alphabet and Numbers K1,Arabic Materials ,Nos,1,0,1,15,1
+,واحد أثنان رياض الاطفال الكتاب الثانى كراسه التدريبات ,Arabic Materials ,Nos,1,0,1,15,1
+,واحد اثنان رياض الاطفال الكتاب الثانى ,Arabic Materials ,Nos,1,0,1,15,1
+,Arty Facts Animal ,Arabic Materials ,Nos,1,0,1,23,1
+,الحروف العربيه للاطفال ,Arabic Materials ,Nos,1,0,1,25,1
+,The Gingerbread Man,Arabic Materials ,Nos,1,0,1,35,1
+,The ugly Ducking ,Arabic Materials ,Nos,1,0,1,30,1
+,Shapes,Arabic Materials ,Nos,1,0,1,30,1
+,شجره الحروف ,Arabic Materials ,Nos,1,0,1,25,1
+,كيف تتعلم الضرب ,Arabic Materials ,Nos,1,0,1,30,1
+,لون وامسح مليون مره الحروف ,Arabic Materials ,Nos,1,0,1,25,1
+,لون وامسح مليون مره الاشياء ,Arabic Materials ,Nos,1,0,1,25,1
+,ابجد خلط الالوان ,Arabic Materials ,Nos,1,0,1,20,1
+,ابجد colours Shapes,Arabic Materials ,Nos,1,0,1,30,1
+,My Multiplication Book,Arabic Materials ,Nos,1,0,1,35,1
+,ابجد كتاب جدول الضرب ,Arabic Materials ,Nos,1,0,1,35,1
+,ابجد الارقام ,Arabic Materials ,Nos,1,0,1,35,1
+,ابجد الجمع ,Arabic Materials ,Nos,1,0,1,35,1
+,story Posters 2,Arabic Materials ,Nos,1,0,1,35,1
+,ابجد الهمزه والحركات كبير,Arabic Materials ,Nos,1,0,1,35,1
+,ابجد الحروف كبير,Arabic Materials ,Nos,1,0,1,35,1
+,الاساسى فى الترجمه ,Arabic Materials ,Nos,1,0,1,60,1
+,scienc 4,Arabic Materials ,Nos,1,0,1,70,1
+,scienc 2,Arabic Materials ,Nos,1,0,1,70,1
+,Hippo and Friends Pupils 2,Arabic Materials ,Nos,1,0,1,90,1
+,Number 1:12 K1,Arabic Materials ,Nos,1,0,1,60,1
+,alphapet,Arabic Materials ,Nos,1,0,1,70,1
+,Mickey Mouse,Arabic Materials ,Nos,1,0,1,40,1
+,Pacesetter Pre intermidate S.B,Pacesetter,Nos,1,0,1,80,1
+,Pacesetter  intermidate S.B,Pacesetter,Nos,1,0,1,80,1
+,Commerce 1 Edition S.B,Commerce ,Nos,1,150,1,90,1
+,Commerce 2 Edition S.B,Commerce ,Nos,1,150,1,90,1
+,Commerce 1 T.B,Commerce ,Nos,1,0,1,160,1
+,Commerce 2 T.B,Commerce ,Nos,1,0,1,160,1
+,Commercial Correspodence,Commerce ,Nos,1,0,1,180,1
+,H.R 12 Edition ,Human resources,Nos,1,250,1,200,1
+,ABC Human Recourses,Human resources,Nos,1,0,1,60,1
+,Eng for  Human Recourses,Human resources,Nos,1,0,1,60,1
+,H.R 7 Edition ,Human resources,Nos,1,400,1,320,1
+,H.R 9 Edition ,Human resources,Nos,1,400,1,320,1
+,H.R Management Advanced ,Human resources,Nos,1,0,1,350,1
+,More 1 Teacher Book ,More,Nos,1,0,1,210,1
+,More 1 S.B,More,Nos,1,190,1,160,1
+,More 2 S.B,More,Nos,1,190,1,160,1
+,More 2 W.B,More,Nos,1,140,1,100,1
+,More 1 W.B,More,Nos,1,140,1,100,1
+,More 1 T.B,More,Nos,1,0,1,190,1
+,More 2 T.B,More,Nos,1,0,1,160,1
+,More 3 S.B,More,Nos,1,190,1,160,1
+,Connect 3 S.B,connect ,Nos,1,0,1,80,1
+,Connect 3 W.B,connect ,Nos,1,0,1,80,1
+,Connect 2 S.B,connect ,Nos,1,0,1,80,1
+,Connect 2 W.B,connect ,Nos,1,0,1,80,1
+,Connect 2 T.B,connect ,Nos,1,0,1,80,1
+,Connect 3 T.B,connect ,Nos,1,0,1,80,1
+,Echo 1 Edition ,french Materials,Nos,1,350,1,270,1
+,Echo 2 Edition ,french Materials,Nos,1,350,1,270,1
+,Echo junior Activity  ,french Materials,Nos,1,0,1,230,1
+,Echo junior  S.B,french Materials,Nos,1,0,1,250,1
+,Connexions De Francois 1 W.B,french Materials,Nos,1,0,1,80,1
+,Connexions De Francois 1 S.B,french Materials,Nos,1,0,1,80,1
+,Connexions De Francois 2 W.B,french Materials,Nos,1,0,1,80,1
+,Connexions De Francois 2 S.B,french Materials,Nos,1,0,1,80,1
+,Connexions De Francois 3 W.B,french Materials,Nos,1,0,1,80,1
+,Connexions De Francois 3 S.B,french Materials,Nos,1,0,1,80,1
+,تعلم الفرنسيه بسهوله ,french Materials,Nos,1,0,1,30,1
+,Nouveau Carmel 1,french Materials,Nos,1,0,1,170,1
+,Sicher Durch 2008,french Materials,Nos,1,0,1,180,1
+,Elementry S.B,Result,Nos,1,180,1,140,1
+,Elementry W.B,Result,Nos,1,180,1,140,1
+,Elementry Photo,Result,Nos,1,0,1,140,1
+,Elementry Teacher Book ,Result,Nos,1,0,1,200,1
+,Intermediate Teacher Book,Result,Nos,1,0,1,200,1
+,intermediate S.B,Result,Nos,1,180,1,140,1
+,intermediate W.B,Result,Nos,1,180,1,140,1
+,intermediate Photo,Result,Nos,1,0,1,140,1
+,Uper intermediate Photo,Result,Nos,1,180,1,140,1
+,Uper intermediate S.B,Result,Nos,1,180,1,140,1
+,Uper intermediate T.B,Result,Nos,1,0,1,200,1
+,Uper intermediate W.B,Result,Nos,1,180,1,140,1
+,Pre intermediate T.B,Result,Nos,1,0,1,200,1
+,Pre intermediate Photo,Result,Nos,1,180,1,140,1
+,Pre intermediate S.B,Result,Nos,1,180,1,140,1
+,Pre intermediate W.B,Result,Nos,1,0,1,140,1
+,New Product Management 9Th Edition ,Management Materials,Nos,1,0,1,230,1
+,Corporate Governance 1 Edation ,Management Materials,Nos,1,0,1,200,1
+,Corporate Governance 2 Edation ,Management Materials,Nos,1,0,1,200,1
+,Crafting Executing Stategy golbal,Management Materials,Nos,1,400,1,320,1
+,Global Business Today,Management Materials,Nos,1,450,1,320,1
+,Leadership Management 7 Th Edition ,Management Materials,Nos,1,400,1,320,1
+,Leadership Management 8 Th Edition ,Management Materials,Nos,1,400,1,320,1
+,Operation and Process 3 edation ,Management Materials,Nos,1,450,1,320,1
+,Masterring American accent,Management Materials,Nos,1,0,1,220,1
+,Performance Management 2 Th Edition ,Management Materials,Nos,1,0,1,180,1
+,Performance Management 3 Th Edition ,Management Materials,Nos,1,0,1,180,1
+,Preschool Teacher Traninig,Management Materials,Nos,1,0,1,50,1
+,Principles of Management ,Management Materials,Nos,1,130,1,90,1
+,Research Method For Business 5 TH Edition ,Management Materials,Nos,1,0,1,250,1
+,Teach English For Primary Book,Management Materials,Nos,1,70,1,45,1
+,Learning Through 5 Senses For Preschoolers,Management Materials,Nos,1,0,1,65,1
+,Management Work Shop 2009,Management Materials,Nos,1,0,1,120,1
+,ENG Vocabulary In use Pre intermediat ,Vocabulary ,Nos,1,0,1,150,1
+,ENG Vocabulary In use,Vocabulary ,Nos,1,0,1,140,1
+,ENG Vocabulary In use Elemenrty ,Vocabulary ,Nos,1,0,1,160,1
+,Advanced Vocabulary And Idiom ,Vocabulary ,Nos,1,0,1,230,1
+,Vocabolario Della Lingue ,Vocabulary ,Nos,1,0,1,150,1
+,Oxford Adanced Dictionary,Vocabulary ,Nos,1,0,1,270,1
+,Advanced Eng counters ,Vocabulary ,Nos,1,0,1,150,1
+,فضل الدعاء وصيغته ,Religion ,Nos,1,0,1,45,1
+,Islam ,Religion ,Nos,1,0,1,35,1
+,الدين الصحيح ,Religion ,Nos,1,0,1,35,1
+,وصف الجنه ,Religion ,Nos,1,0,1,35,1
+,صيام رمضان ,Religion ,Nos,1,0,1,35,1
+,Abrief Lilustrated guide to under standing islam ,Religion ,Nos,1,0,1,30,1
+,الاسلام والزواج ,Religion ,Nos,1,0,1,40,1
+,وصول الدعاء وطبيعته,Religion ,Nos,1,0,1,50,1
+,قصه يونس عليه السلام ,Religion ,Nos,1,0,1,35,1
+,I slam in focuse,Religion ,Nos,1,0,1,40,1
+,قاعده بيانات اكتوبر ,منوعات ,Nos,1,0,1,80,1
+,كتالوج كامبردج ,منوعات ,Nos,1,0,1,40,1
+,دليل مصر 2014-2015,منوعات ,Nos,1,0,1,50,1
+,دليل مصر 2015-2016,منوعات ,Nos,1,0,1,50,1
+,المعجم المساعد ,منوعات ,Nos,1,0,1,70,1
+,عظماء ومشاهير المعاهد القوميه ,منوعات ,Nos,1,0,1,40,1
+,Aiesec  6 october,منوعات ,Nos,1,0,1,40,1
+,yellow Pages 2014,منوعات ,Nos,1,0,1,30,1
+,فن اداره التنافس ,Customer ,Nos,1,0,1,40,1
+,فن التواصل مع الاخرين واجاده التخاطب ,Customer ,Nos,1,0,1,35,1
+,كيف تروج منتجات ,Customer ,Nos,1,0,1,40,1
+,تحقيق الرضا الوظيفى ,Customer ,Nos,1,0,1,30,1
+,كيف تكتب خطه تسويقيه ناجحه ,Customer ,Nos,1,0,1,35,1
+,تعلم اسرار البيع مع العملاء ,Customer ,Nos,1,0,1,40,1
+,كيف تهتم بالعميل وتحافظ على ولائه,Customer ,Nos,1,0,1,45,1
+,اداره الوقت ,Customer ,Nos,1,0,1,40,1
+,كيف ترضى العملاء الغاضبين ,Customer ,Nos,1,0,1,40,1
+,كيف تحسن من اداء موظفيك ,Customer ,Nos,1,0,1,40,1
+,Eng For customer Care,Customer ,Nos,1,0,1,50,1
+,Face 2 Face Starter S.B,Customer ,Nos,1,0,1,40,1
+,Great Idea S.b,Customer ,Nos,1,0,1,90,1
+,Ideaas Speaking &listing Interidate S.B,Customer ,Nos,1,0,1,80,1
+,True Colours S.B,Customer ,Nos,1,0,1,80,1
+,True Colours w.B,Customer ,Nos,1,0,1,80,1
+,Delivering quality,Customer ,Nos,1,0,1,40,1
+,All you need TO Know About Abe ,Customer ,Nos,1,0,1,60,1
+,International certifications 2010,Customer ,Nos,1,0,1,45,1
+,Contact us Course,Customer ,Nos,1,0,1,60,1
+,فن التسويق ,Customer ,Nos,1,0,1,45,1
+,Protected 4 Teacher guide,Protected ,Nos,1,0,1,200,1
+,Protected 1 teacher lesson Plan,Protected ,Nos,1,0,1,200,1
+,Protected garde 4 S.B,Protected ,Nos,1,0,1,180,1
+,Protected garde 6 S.B,Protected ,Nos,1,0,1,180,1
+,Protected 4 teacher lesson Plan,Protected ,Nos,1,0,1,220,1
+,Protected 6 teacher lesson Plan,Protected ,Nos,1,0,1,240,1
+,Protected  Teacher guide,Protected ,Nos,1,0,1,220,1
+,Protected 3 teacher lesson Plan,Protected ,Nos,1,0,1,200,1
+,Protected garde 1 S.B,Protected ,Nos,1,0,1,180,1
+,Protected garde 3 S.B,Protected ,Nos,1,0,1,180,1
+,Marketing Management 5 Edition ,Marketing ,Nos,1,350,1,320,1
+,English For Marketing &Advertising ,Marketing ,Nos,1,0,1,320,1
+,Marketing Management 6 Edition ,Marketing ,Nos,1,350,1,300,1
+,Advanced grammer In Use Second Edition,Grammer,Nos,1,0,1,280,1
+,English Grammer In Use 3Th Edition,Grammer,Nos,1,270,1,240,1
+,English Language Teaching 3Th Edition ,Grammer,Nos,1,0,1,150,1
+,English Pronunciation Advanced ,Pronuncation,Nos,1,0,1,240,1
+,English Pronunciation Elementry,Pronuncation,Nos,1,0,1,240,1
+,Essetial Grammer in Use 3Th Edition ,Pronuncation,Nos,1,270,1,240,1
+,Access Arabic Book,IT,Nos,1,0,1,70,1
+,Access English  Book,IT,Nos,1,0,1,70,1
+,Excel Arabic Book ,IT,Nos,1,0,1,70,1
+,Excel English  Book ,IT,Nos,1,0,1,70,1
+,Internet Arabic Book,IT,Nos,1,0,1,70,1
+,Internet English  Book,IT,Nos,1,0,1,70,1
+,IT Arabic Book ,IT,Nos,1,0,1,70,1
+,IT English  Book ,IT,Nos,1,0,1,70,1
+,Power Point Arabic Book,IT,Nos,1,0,1,70,1
+,Power Point English  Book,IT,Nos,1,0,1,70,1
+,Windows Arabic Book,IT,Nos,1,0,1,70,1
+,Windows English Book,IT,Nos,1,0,1,70,1
+,Word Arabic Book,IT,Nos,1,0,1,70,1
+,Word English Book,IT,Nos,1,0,1,70,1
+,Antel Program ,IT,Nos,1,0,1,60,1
+,Info . Teach Eng Computer Users,IT,Nos,1,0,1,45,1
+,Awardind Icdl Book,IT,Nos,1,0,1,35,1
+,مكونات الكمبيوتر ,IT,Nos,1,0,1,50,1
+,Kid's 1 Activity Book,Kid's,Nos,1,190,1,120,1
+,Kid's 1 Pupils Book,Kid's,Nos,1,190,1,143,1
+,Kid's 1 Teacher  Book,Kid's,Nos,1,0,1,200,1
+,Kid's 2 Activity Book,Kid's,Nos,1,190,1,120,1
+,Kid's 2 Pupils Book,Kid's,Nos,1,190,1,143,1
+,Kid's 3 Activity Book,Kid's,Nos,1,190,1,120,1
+,Kid's 3 Pupils Book,Kid's,Nos,1,190,1,143,1
+,Kid's 4 Activity Book,Kid's,Nos,1,190,1,120,1
+,Kid's 4 Pupils Book,Kid's,Nos,1,190,1,143,1
+,Kid's 5 Pupils Book,Kid's,Nos,1,190,1,120,1
+,Kid's 5 Activity Book,Kid's,Nos,1,190,1,143,1
+,Kid's 6 Pupils Book,Kid's,Nos,1,190,1,120,1
+,Kid's 6 Activity Book,Kid's,Nos,1,190,1,143,1
+,Kid's Box Starter S.B,Kid's,Nos,1,190,1,120,1
+,Kid's Box Starter T.B,Kid's,Nos,1,0,1,200,1
+,Russian Book,Russian Materials,Nos,1,0,1,230,1
+,علم نفس الطفل ,علم نفس ,Nos,1,200,1,160,1
+,الاصول النفسيه دليل المعلم ,علم نفس ,Nos,1,0,1,45,1
+,الاصول النفسيه دليل الوسائل ,علم نفس ,Nos,1,0,1,50,1
+,الاصول النفسيه كتاب الطالب ,علم نفس ,Nos,1,0,1,60,1
+,رؤيه تربويه لبناء الشخصيه ,علم نفس ,Nos,1,0,1,40,1
+,كيف تصبحين ام عامله مثاليه ,علم نفس ,Nos,1,0,1,50,1
+,كل ما تحتاجه لأعداد طفلك لدخول المدرسه ,علم نفس ,Nos,1,0,1,60,1
+,كيف تبدأ تربيه طفلك ,علم نفس ,Nos,1,0,1,40,1
+,فن تربيه الاطفال ,علم نفس ,Nos,1,0,1,30,1
+,فن التعامل مع المراهقين ,علم نفس ,Nos,1,0,1,55,1
+,القوه الانسانيه الكامنه,علم نفس ,Nos,1,0,1,60,1
+,الخطوات العشر للعيش بايجابيه ,علم نفس ,Nos,1,0,1,50,1
+,كيف تربى اولادك من الطفوله للمراهقه ,علم نفس ,Nos,1,0,1,60,1
+,كيف تتعامل مع طفلك العنيد,علم نفس ,Nos,1,0,1,40,1
+,قوه عقلك الباطن ,علم نفس ,Nos,1,0,1,30,1
+,منهج السعاده والنجاح,علم نفس ,Nos,1,0,1,40,1
+,كيف تغير حياتك فى 7 ايام ,علم نفس ,Nos,1,0,1,50,1
+,فن تربيه البنات,علم نفس ,Nos,1,0,1,60,1
+,دليل الامومه الرشيده ,علم نفس ,Nos,1,0,1,60,1
+,كيف تبدأ تربيه اولادك ,علم نفس ,Nos,1,0,1,40,1
+,سيكولوجيه الطفل ,علم نفس ,Nos,1,190,1,150,1
+,علم نفس النمو ,علم نفس ,Nos,1,190,1,150,1
+,Present Your Self Experience Teacher Manual ,علم نفس ,Nos,1,0,1,50,1
+,Present Your Self Experience Student Book  ,علم نفس ,Nos,1,0,1,60,1
+,New Patches For Old ,علم نفس ,Nos,1,0,1,40,1
+,Play way 1 Edation ,Play Way ,Nos,1,190,1,160,1
+,Play way 2 Edation ,Play Way ,Nos,1,190,1,160,1
+,Play way 3 Edation ,Play Way ,Nos,1,190,1,160,1
+,Q 1 Student Book,Q,Nos,1,250,1,210,1
+,Q 2 Student Book,Q,Nos,1,250,1,210,1
+,Q 3 Student Book,Q,Nos,1,250,1,210,1
+,Q 4 Student Book,Q,Nos,1,250,1,210,1
+,Q 5 Student Book,Q,Nos,1,250,1,210,1
+,Q 1 Teacher  Book,Q,Nos,1,0,1,250,1
+,Super Minds  1 T.B,super Mind ,Nos,1,0,1,250,1
+,Super Minds  1 S.B,super Mind ,Nos,1,200,1,160,1
+,Super Minds Starter S.B,super Mind ,Nos,1,200,1,160,1
+,Super Minds 1 W.B,super Mind ,Nos,1,0,1,140,1
+,Super Minds Starter T.B,super Mind ,Nos,1,0,1,280,1
+,Super Minds Starter FlashCards ,super Mind ,Nos,1,0,1,230,1
+,Super Minds 1 FlashCards ,super Mind ,Nos,1,0,1,230,1
+,Super Minds 2 FlashCards ,super Mind ,Nos,1,0,1,230,1
+,Super Minds Starter W.B,super Mind ,Nos,1,0,1,140,1
+,Super Minds Starter T.B resources,super Mind ,Nos,1,0,1,280,1
+,Super Minds  2 T.B,super Mind ,Nos,1,0,1,280,1
+,Super Minds  2 S.B,super Mind ,Nos,1,200,1,160,1
+,Super Minds  3 T.B,super Mind ,Nos,1,0,1,280,1
+,Super Minds  3 S.B,super Mind ,Nos,1,200,1,160,1
+,Super Minds  4 T.B,super Mind ,Nos,1,0,1,280,1
+,Super Minds  4 S.B,super Mind ,Nos,1,200,1,160,1
+,Super Minds  5 T.B,super Mind ,Nos,1,0,1,280,1
+,Super Minds  5 S.B,super Mind ,Nos,1,200,1,160,1
+,Super Minds  6 T.B,super Mind ,Nos,1,0,1,280,1
+,Super Minds  6 S.B,super Mind ,Nos,1,200,1,160,1
+,TkT English Second EdItion ,TKT,Nos,1,250,1,200,1
+,TKT Math Book,TKT,Nos,1,200,1,170,1
+,Touch Stone 1 S.B,Touch Stone ,Nos,1,250,1,211,1
+,Touch Stone 1 W.B,Touch Stone ,Nos,1,0,1,70,1
+,Touch Stone 2 S.B,Touch Stone ,Nos,1,250,1,211,1
+,Touch Stone 2 W.B,Touch Stone ,Nos,1,0,1,70,1
+,Touch Stone 3 S.B,Touch Stone ,Nos,1,250,1,211,1
+,Touch Stone 3 W.B,Touch Stone ,Nos,1,0,1,70,1
+,Touch Stone 4 S.B,Touch Stone ,Nos,1,250,1,211,1
+,Touch Stone 4 W.B,Touch Stone ,Nos,1,0,1,70,1
+,Touch Stone 1 T.B,Touch Stone ,Nos,1,0,1,320,1
+,Touch Stone 2 T.B,Touch Stone ,Nos,1,0,1,320,1
+,Touch Stone 3 T.B,Touch Stone ,Nos,1,0,1,320,1
+,Touch Stone 4 T.B,Touch Stone ,Nos,1,0,1,320,1
+,Eyes Open 1 S.B,Eyes Open ,Nos,1,250,1,220,1
+,Eyes Open 2 S.B,Eyes Open ,Nos,1,250,1,220,1
+,Eyes Open 3 S.B,Eyes Open ,Nos,1,250,1,220,1
+,Eyes Open 1 T.B,Eyes Open ,Nos,1,0,1,280,1
+,Eyes Open 2 T.B,Eyes Open ,Nos,1,0,1,280,1
+,Eyes Open 3 T.B,Eyes Open ,Nos,1,0,1,280,1
+,Four Corners  1  S.B,Four Corners,Nos,1,200,1,170,1
+,Four Corners  1  W.B,Four Corners,Nos,1,0,1,60,1
+,Four Corners  2  S.B,Four Corners,Nos,1,0,1,170,1
+,Four Corners  3  S.B,Four Corners,Nos,1,0,1,170,1
+,Four Corners  4  S.B,Four Corners,Nos,1,0,1,170,1
+,Four Corners  1  T.B,Four Corners,Nos,1,0,1,230,1
+,اجمل الحكايات اميره الاحلام ,Four Corners,Nos,1,0,1,40,1
+,امير الحروف ,Story ,Nos,1,0,1,40,1
+,اجمل الحكايات صديق النجوم ,Story ,Nos,1,0,1,40,1
+,اجمل الحكايات بئر الامنيات,Story ,Nos,1,0,1,40,1
+,اجمل الحكايات جزيره الدببه,Story ,Nos,1,0,1,40,1
+,اجمل الحكايات السر العجيب ,Story ,Nos,1,0,1,40,1
+,اجمل الحكايات القزم العجيب ,Story ,Nos,1,0,1,40,1
+,اجمل الحكايات الديناصور ينط الحبل ,Story ,Nos,1,0,1,40,1
+,اجمل الحكايات مغامرات عقله الاصبع ,Story ,Nos,1,0,1,40,1
+,اجمل الحكايات ساحر الزجاج,Story ,Nos,1,0,1,40,1
+,اجمل الحكايات شبح حقل السبانخ,Story ,Nos,1,0,1,40,1
+,اجمل الحكايات مغامرات الجنيه الشقيه ,Story ,Nos,1,0,1,40,1
+,اجمل الحكايات نسمه ووحوش الغابه ,Story ,Nos,1,0,1,40,1
+,اجمل الحكايات قرصان الفضاء ,Story ,Nos,1,0,1,40,1
+,اجمل الحكايات شبح الكمبيوتر ,Story ,Nos,1,0,1,40,1
+,اجمل الحكايات الرحله العجيبه ,Story ,Nos,1,0,1,40,1
+,اجمل الحكايات سر الحطاب ,Story ,Nos,1,0,1,40,1
+,اجمل الحكايات قرصان البحار السبعه ,Story ,Nos,1,0,1,40,1
+,حسان والعم نعمان ,Story ,Nos,1,0,1,40,1
+,روايه غدا ,Story ,Nos,1,0,1,40,1
+,روايه الكلمه المكسوره ,Story ,Nos,1,0,1,40,1
+,اجمل الحكايات اطفال شجره الجميز ,Story ,Nos,1,0,1,40,1
+,الصحراء تحترق ,Story ,Nos,1,0,1,40,1
+,معركه هرمجدون وتأسيس مملكه الرب ,Story ,Nos,1,0,1,40,1
+,مدرسه الساحرات ,Story ,Nos,1,0,1,40,1
+,القصر المسحور,Story ,Nos,1,0,1,40,1
+,The Lion The Mouse ,Story ,Nos,1,0,1,40,1
+,Scholastic Teaching Teacher Fring,Teaching Materials,Nos,1,0,1,60,1
+,English Language Teaching 2010,Teaching Materials,Nos,1,0,1,70,1
+,Teaching and Learining Materials 2015,Teaching Materials,Nos,1,0,1,80,1
+,English Teaching Forum ,Teaching Materials,Nos,1,0,1,60,1
+,Cambridge English Teaching 2015,Teaching Materials,Nos,1,0,1,70,1
+,Youth 20 Proposal,Teaching Materials,Nos,1,0,1,80,1
+,Global English 4 learners,Teaching Materials,Nos,1,0,1,90,1
+,Global English 2 learners,Teaching Materials,Nos,1,0,1,90,1
+,Think 1 S.B,Teaching Materials,Nos,1,0,1,100,1
+,Think 2 S.B,Teaching Materials,Nos,1,0,1,100,1
+,Think 3 S.B,Teaching Materials,Nos,1,0,1,100,1
+,Eng language Teaching,Teaching Materials,Nos,1,0,1,120,1
+,English Language Teaching 2016,Teaching Materials,Nos,1,0,1,150,1
+,English Language Teaching 3.18,Teaching Materials,Nos,1,0,1,150,1
+,Guess What 2 Activity ,Guess,Nos,1,0,1,140,1
+,Guess What 2 Pupils ,Guess,Nos,1,0,1,140,1
+,Guess What 2 T.B,Guess,Nos,1,0,1,140,1
+,Discovery Library Words (me  and you),Discovery,Nos,1,0,1,60,1
+,Discovery Library Words People and Place),Discovery,Nos,1,0,1,60,1
+,Discovery Library Words (The World around us ),Discovery,Nos,1,0,1,60,1
+,Discovery Library Words (Animals ),Discovery,Nos,1,0,1,60,1
+,Discovery Library Words (Colours ),Discovery,Nos,1,0,1,60,1
+,Discovery Library Words (Shapes  ),Discovery,Nos,1,0,1,60,1
+,Discovery Library Words (Words ),Discovery,Nos,1,0,1,60,1
+,Discovery Library Words (Sounds ),Discovery,Nos,1,0,1,60,1
+,Discovery Library Words (Numbers ),Discovery,Nos,1,0,1,60,1
+,Discovery Library Words (Time ),Discovery,Nos,1,0,1,60,1
+,Discovery Library Words (Numbers ),Discovery,Nos,1,0,1,60,1
+,Inter change Intro,Inter Change ,Nos,1,0,1,120,1
+,Inter change 2,Inter Change ,Nos,1,0,1,120,1
+,New Interchange With Video Transcripts,Inter Change ,Nos,1,0,1,130,1
+,"Inter change "" Placement Evaluation "" 3 edation",Inter Change ,Nos,1,0,1,130,1
+,Interchange 3 S.B,Inter Change ,Nos,1,0,1,130,1
+,New Inter change Intro T.B,Inter Change ,Nos,1,0,1,180,1
+,New Inter change Intro W.B,Inter Change ,Nos,1,0,1,90,1
+,New Inter change Intro S.B,Inter Change ,Nos,1,0,1,130,1
+,New inter change 2,Inter Change ,Nos,1,0,1,130,1
+,Let's Talk 2 S.B,Let's,Nos,1,200,1,170,1
+,Let's Talk 1 S.B,Let's,Nos,1,200,1,170,1
+,Let's Talk 2 T.B,Let's,Nos,1,0,1,250,1
+,Let's Talk 3 S.B,Let's,Nos,1,200,1,170,1
+,Let's Talk 3 T.B,Let's,Nos,1,0,1,250,1
+,Conversation Resource Books for Teachers,Let's,Nos,1,0,1,130,1
+,Montessori Book,Montessori Materials,Nos,1,60,1,40,1
+,منتسورى الطفل والمجتمع والعالم ,Montessori Materials,Nos,1,0,1,60,1
+,منتسورى اكتشاف الطفل ,Montessori Materials,Nos,1,0,1,70,1
+,طرق منتسورى المتقدمه المستوى الاول ,Montessori Materials,Nos,1,0,1,80,1
+,ماريا منتسورى فى البيت العربى ,Montessori Materials,Nos,1,0,1,60,1
+,منتسورى من البدايه ,Montessori Materials,Nos,1,0,1,80,1
+,ماريا منتسورى العقل المستوعب ,Montessori Materials,Nos,1,0,1,70,1
+,ماريا منتسورى القوه الكامنه ,Montessori Materials,Nos,1,0,1,90,1
+,Prisma S.B,Business,Nos,1,130,1,90,1
+,Prisma w.B,Business,Nos,1,130,1,90,1
+,Business Pre intermediate S.B,Business,Nos,1,0,1,220,1
+,Business  intermediate S.B,Business,Nos,1,0,1,210,1
+,Business Uper intermediate S.B,Business,Nos,1,0,1,220,1
+,Business Result Advanced S.B,Business,Nos,1,0,1,220,1
+,Business Pre intermediate T.B,Business,Nos,1,0,1,280,1
+,ABE Business Management ,Business,Nos,1,0,1,12,1
+,ABE Business Information System ,Business,Nos,1,0,1,120,1
+,New International Busiess S.B,Business,Nos,1,0,1,240,1
+,Good Practice S.B,Business,Nos,1,0,1,160,1
+,Mosaic 11 Second Edation ,Business,Nos,1,0,1,140,1
+,Writing for international Business,Business,Nos,1,0,1,180,1
+,Basic Business English Words,Business,Nos,1,0,1,170,1
+,want to devolp Your Business,Business,Nos,1,0,1,150,1
+,want afast route to adegree,Business,Nos,1,0,1,150,1
+,want to create success,Business,Nos,1,0,1,150,1
+,want To go fur ther,Business,Nos,1,0,1,150,1
+,Objective Ielts Intermediat S.B,Objective,Nos,1,0,1,170,1
+,Objective Ielts Intermediat T.B,Objective,Nos,1,0,1,220,1
+,Objective Pet 1 T.B ,Objective,Nos,1,0,1,230,1
+,Objective Ket 1 T.B ,Objective,Nos,1,0,1,230,1
+,Objective Ket 2 T.B ,Objective,Nos,1,0,1,230,1
+,Objective Frist certificate S.B,Objective,Nos,1,0,1,170,1
+,Objective Frist certificate T.B,Objective,Nos,1,0,1,170,1
+,Eng Time 1 S.B,Time ,Nos,1,0,1,90,1
+,Eng Time 6 S.B,Time ,Nos,1,0,1,90,1
+,Magic Time 1 S.B,Time ,Nos,1,0,1,90,1
+,English Unlimited A1 starter,Unlimited,Nos,1,0,1,70,1
+,English Unlimited A2 Elementry  S.B,Unlimited,Nos,1,0,1,70,1
+,English Unlimited A2 Elementry  W.B,Unlimited,Nos,1,0,1,70,1
+,write at work easy T.B,Unlimited,Nos,1,0,1,160,1
+,write at work easy S.B,Unlimited,Nos,1,0,1,80,1
+,write at work Paragraph ,Unlimited,Nos,1,0,1,90,1
+,write at work short composition ,Unlimited,Nos,1,0,1,90,1
+,Writiers The Easy  T.B,Unlimited,Nos,1,0,1,160,1
+,Independent Writing Second Edation ,Unlimited,Nos,1,0,1,90,1
+,Passage 1 S.B,Unlimited,Nos,1,0,1,90,1
+,Passage 2 S.B,Unlimited,Nos,1,0,1,90,1
+,Creative Arts For words ,Unlimited,Nos,1,0,1,80,1
+,Study Skills For student Second Edation ,Unlimited,Nos,1,0,1,120,1
+,We can share It W.B 9,Unlimited,Nos,1,0,1,130,1
+,We can share It S.B 9,Unlimited,Nos,1,0,1,140,1
+,Kgs stage ,Unlimited,Nos,1,0,1,150,1
+,Tam burin Deutsch Fur Kind S.B,Unlimited,Nos,1,0,1,160,1
+,Tam burin Deutsch Fur Kind W.B,Unlimited,Nos,1,0,1,160,1
+,Hauptkurs ( Deutch),Unlimited,Nos,1,0,1,230,1
+,cutting Edge,Unlimited,Nos,1,0,1,170,1
+,Bright star 2 w.B,Unlimited,Nos,1,0,1,150,1
+,Bright star 2 S.B,Unlimited,Nos,1,0,1,150,1
+,English Teacher And learning Materials 2011,Unlimited,Nos,1,0,1,170,1
+,Travel Book Estonia,Unlimited,Nos,1,0,1,90,1
+,Little Red riding hood,Unlimited,Nos,1,0,1,90,1
+,`work shop guide,Unlimited,Nos,1,0,1,90,1
+,The selfish giant,Unlimited,Nos,1,0,1,60,1
+,الانجليزيه للاجتماعات ,Unlimited,Nos,1,0,1,70,1
+,الانجليزيه للعروض ,Unlimited,Nos,1,0,1,70,1
+,قواعد الانجليزيه ,Unlimited,Nos,1,0,1,70,1
+,English For Telepone ,Unlimited,Nos,1,0,1,60,1
+,English For Seclalizing ,Unlimited,Nos,1,0,1,60,1
+,Pride Of small Nations ,Unlimited,Nos,1,0,1,60,1
+,Long man Preparation Toefl IBT,Toefl Materials,Nos,1,0,1,320,1
+,Toefl Ibt Teasting Program,Toefl Materials,Nos,1,0,1,350,1
+,Tangram Aktuell 1 Section 1-4,Tangram,Nos,1,0,1,250,1
+,Tangram Aktuell 1 Section 5-8,Tangram,Nos,1,0,1,165,1
+,Tangram Aktuell 2 Section 1-4,Tangram,Nos,1,0,1,165,1
+,Tangram Aktuell 2 Section 5-8,Tangram,Nos,1,0,1,165,1
+,Tangram Aktuell 3 Section 1-4,Tangram,Nos,1,0,1,165,1
+,Ogg In Italia W.B,Italy ,Nos,1,0,1,220,1
+,Ogg In Italia S.B,Italy ,Nos,1,0,1,220,1
+,Rate 1 S.B,Rate,Nos,1,0,1,120,1
+,Rate 1 W.B,Rate,Nos,1,0,1,120,1
+,Rate 2 S.B,Rate,Nos,1,0,1,120,1
+,Rate 2 W.B,Rate,Nos,1,0,1,120,1
+,Rate 3 S.B,Rate,Nos,1,0,1,120,1
+,Rate 3 W.B,Rate,Nos,1,0,1,120,1
+,Tapestry 2,Tapestry ,Nos,1,0,1,150,1
+,Tapestry tools For Success 3& 4,Tapestry ,Nos,1,0,1,150,1
+,Tapestry tools For Success 1& 2,Tapestry ,Nos,1,0,1,150,1
+,Tapestry 3,Tapestry ,Nos,1,0,1,150,1
+,Tapestry 4,Tapestry ,Nos,1,0,1,150,1
+,Technical English 2 W.B,Technical ,Nos,1,0,1,130,1
+,Technical English 2 S.B,Technical ,Nos,1,0,1,130,1
+,Technical English 2 T.B,Technical ,Nos,1,0,1,130,1
+,Real 1 Listening & Speaking Whit out ,Real,Nos,1,180,1,140,1
+,Real 3 Listening & Speaking ,Real,Nos,1,180,1,140,1
+,Real 1  Listening & Speaking ,Real,Nos,1,180,1,140,1
+,Original CD  Eyes open 2 vedio/ Audio,Original CD,Nos,1,0,1,120,1
+,Original CD  Eyes open 3 vedio/ Audio,Original CD,Nos,1,0,1,120,1
+,Original CD let's Talk 3,Original CD,Nos,1,0,1,120,1
+,Original CD Kids 1 Puipls,Original CD,Nos,1,0,1,140,1
+,Original CD Elementry Audio,Original CD,Nos,1,0,1,75,1
+,Original CD Elementry Student,Original CD,Nos,1,0,1,75,1
+,Original CD Intermediat Audio,Original CD,Nos,1,0,1,75,1
+,Original CD Intermediat Student,Original CD,Nos,1,0,1,75,1
+,Original CD Kids 2 Puipls,Original CD,Nos,1,0,1,150,1
+,Original CD Oxford Commerce 1 Edition ,Original CD,Nos,1,0,1,75,1
+,Original CD Oxford Commerce 2 Edition ,Original CD,Nos,1,0,1,75,1
+,Original CD Play way 1,Original CD,Nos,1,0,1,150,1
+,Original CD Play way 2,Original CD,Nos,1,0,1,150,1
+,Original CD Play way 3,Original CD,Nos,1,0,1,150,1
+,Original CD Pre intermediat Audio,Original CD,Nos,1,0,1,75,1
+,Original CD Pre intermediat Student,Original CD,Nos,1,0,1,75,1
+,Original CD Q1,Original CD,Nos,1,0,1,180,1
+,Original CD Q2,Original CD,Nos,1,0,1,180,1
+,Original CD Q3,Original CD,Nos,1,0,1,180,1
+,Original CD Q5,Original CD,Nos,1,0,1,180,1
+,Original CD TKt,Original CD,Nos,1,0,1,180,1
+,Original CD Uper Intermediat Audio,Original CD,Nos,1,0,1,70,1
+,Original CD Uper Intermediat Student,Original CD,Nos,1,0,1,70,1
+,Original CD Self Study Intro,Original CD,Nos,1,0,1,80,1
+,Original CD Self study L 1,Original CD,Nos,1,0,1,80,1
+,Original CD Super Minds 1 audio,Original CD,Nos,1,0,1,140,1
+,Original CD Super Minds Starter audio,Original CD,Nos,1,0,1,140,1
+,Original CD Super Minds 2 audio,Original CD,Nos,1,0,1,140,1
+,Original CD Super Minds 3 audio,Original CD,Nos,1,0,1,140,1
+,Original CD Super Minds 4 audio,Original CD,Nos,1,0,1,140,1
+,Original CD Super Minds 5 audio,Original CD,Nos,1,0,1,140,1
+,Original CD Super Minds 6 audio,Original CD,Nos,1,0,1,140,1
+,Original CD Technical 1 English S.B,Original CD,Nos,1,0,1,110,1
+,Original CD Technical 1 English w.B,Original CD,Nos,1,0,1,110,1
+,Original CD Touch Stone 4 Audio ,Original CD,Nos,1,0,1,182,1
+,Original CD Touch Stone 1 Audio ,Original CD,Nos,1,0,1,182,1
+,Original CD Touch Stone 2 Audio ,Original CD,Nos,1,0,1,182,1
+,Original CD Touch Stone 3 Audio ,Original CD,Nos,1,0,1,182,1
+,Original CD Kid's Box Starter,Original CD,Nos,1,0,1,200,1
+,Original CD Four Corners Lv 1 Audio,Original CD,Nos,1,0,1,140,1
+,Original CD Let's 2 Audio ,Original CD,Nos,1,0,1,130,1
+,Original CD Pronunciation in use Elementry ,Original CD,Nos,1,0,1,220,1
+,Original CD Pronunciation in use Advanced ,Original CD,Nos,1,0,1,220,1
+,Original CD Pronunciation in use Intermediat ,Original CD,Nos,1,0,1,220,1
+,Original CD the egyption vision ,Original CD,Nos,1,0,1,120,1
+,Original CD new insigh into ielts,Original CD,Nos,1,0,1,170,1
+,Original CD  قاعده بيانات 6 اكتوبر,Original CD,Nos,1,0,1,120,1
+,Original CD Windows Server,Original CD,Nos,1,0,1,230,1
+,Original CD اختبارات الذكاء ,Original CD,Nos,1,0,1,135,1
+,Original CD تعليم الفرنسيه ,Original CD,Nos,1,0,1,135,1
+,Original CD the TkT course,Original CD,Nos,1,0,1,135,1
+,Original CD Passages 1,Original CD,Nos,1,0,1,135,1
+,Original CD Passages 2,Original CD,Nos,1,0,1,135,1
+,Original CD Northstar 2,Original CD,Nos,1,0,1,135,1
+,Original CD Northstar 3,Original CD,Nos,1,0,1,135,1
+,Original CD Northstar 4,Original CD,Nos,1,0,1,135,1
+,Original CD Toefl Ets,Original CD,Nos,1,0,1,320,1
+,Original CD Ielts ,Original CD,Nos,1,0,1,230,1
+,Original CD More 1,Original CD,Nos,1,0,1,140,1
+,Original CD More 2,Original CD,Nos,1,0,1,150,1
+,Original CD More 3,Original CD,Nos,1,0,1,150,1
+,Original CD Kids Box 1,Original CD,Nos,1,0,1,150,1
+,Original CD Kids Box 3,Original CD,Nos,1,0,1,150,1
+,Original CD Kids Box 4,Original CD,Nos,1,0,1,150,1
+,Original CD Kids Box 5,Original CD,Nos,1,0,1,150,1
+,Original CD Kids Box 6,Original CD,Nos,1,0,1,150,1
+,Original CD Letters & words,Original CD,Nos,1,0,1,130,1
+,Original CD Just Letters & words,Original CD,Nos,1,0,1,130,1
+,Original CD Find The Missing Letter,Original CD,Nos,1,0,1,130,1
+,Original CD Hippo and Friends,Original CD,Nos,1,0,1,130,1
+,Original CD Bonjour فى اللغه الفرنسيه ,Original CD,Nos,1,0,1,130,1
+,Original CD Tamburin 1 deutsuh,Original CD,Nos,1,0,1,130,1
+,Original CD Anistuna,Original CD,Nos,1,0,1,130,1
+,Original CD Bitdefender Antivirus ,Original CD,Nos,1,0,1,130,1
+,Original CD Bryant University,Original CD,Nos,1,0,1,130,1
+,Original CD Office Home And Student ,Original CD,Nos,1,0,1,130,1
+,Original CD Microsoft,Original CD,Nos,1,0,1,130,1
+,Original CD Norton 360,Original CD,Nos,1,0,1,130,1
+,Original CD Onsite care ,Original CD,Nos,1,0,1,130,1
+,Original CD Excel 2007,Original CD,Nos,1,0,1,130,1
+,Original CD Internet Security ,Original CD,Nos,1,0,1,130,1
+,Original CD HR mtjition resourse,Original CD,Nos,1,0,1,180,1
+,Original CD Advanced Diploma,Original CD,Nos,1,0,1,70,1
+,Original CD  Diploma ,Original CD,Nos,1,0,1,84,1
+,Original CD toddler Curricalum ,Original CD,Nos,1,0,1,72,1
+,Original CD Office 2010,Original CD,Nos,1,0,1,77,1
+,Original CD Windows,Original CD,Nos,1,0,1,80,1
+,Original CD Tdk  r 80,Original CD,Nos,1,0,1,80,1
+,Original CD Bitdefender antivirus 2010,Original CD,Nos,1,0,1,80,1
+,Original CD New Interchange Intro,Original CD,Nos,1,0,1,80,1
+,Original CD New Interchange  I,Original CD,Nos,1,0,1,80,1
+,Original CD The Fourth National Tempus projects ,Original CD,Nos,1,0,1,80,1
+,Original CD Bonus DVD volume2,Original CD,Nos,1,0,1,80,1
+,CD Customer Service,Original CD,Nos,1,0,1,15,1
+,CD Drives Utillties,Original CD,Nos,1,0,1,15,1
+,CD Solving ,Original CD,Nos,1,0,1,15,1
+,CD حرب ايطاليا ,Original CD,Nos,1,0,1,15,1
+,CD اداره الازمات ,Original CD,Nos,1,0,1,15,1
+,CD الاكاديميه ,Original CD,Nos,1,0,1,15,1
+,CD Mangement ,Original CD,Nos,1,0,1,15,1
+,CD New English toefl,Original CD,Nos,1,0,1,15,1
+,CD write Toefl ,Original CD,Nos,1,0,1,15,1
+,CD الشيعه والسنه ,Original CD,Nos,1,0,1,15,1
+,CD Intro 3,Original CD,Nos,1,0,1,15,1
+,CD Intro 1,Original CD,Nos,1,0,1,15,1
+,CD Cambridge Diploma,Original CD,Nos,1,0,1,15,1
+,CD Cambridge Easyling,Original CD,Nos,1,0,1,15,1
+,CD Rego,Original CD,Nos,1,0,1,15,1
+,CD عالم الكمبيوتر والانترنت ,Original CD,Nos,1,0,1,15,1
+,CD Degital ez 16,Original CD,Nos,1,0,1,15,1
+,CD Ecom,Original CD,Nos,1,0,1,15,1
+,CD Kg2,Original CD,Nos,1,0,1,15,1
+,CD الحروب الصليبيه ,Original CD,Nos,1,0,1,15,1
+,CD موسوعه الطبخ ,Original CD,Nos,1,0,1,15,1
+,CD افضل 20 لعبه ,Original CD,Nos,1,0,1,15,1
+,CD بنك الاسئله,Original CD,Nos,1,0,1,15,1
+,CD الكامل فى صيانه وتجميع الكمبيوتر ,Original CD,Nos,1,0,1,15,1
+,CD Sync Master,Original CD,Nos,1,0,1,15,1
+,CD لغه العصر 2004,Original CD,Nos,1,0,1,15,1
+,CD Linux Plus ,Original CD,Nos,1,0,1,15,1
+,CD افضل برامج 2004,Original CD,Nos,1,0,1,15,1
+,CD لغه العصر 2003,Original CD,Nos,1,0,1,15,1
+,CD لغه العصر 2005,Original CD,Nos,1,0,1,15,1
+,CD Icdl 7 Modules,Original CD,Nos,1,0,1,15,1
+,CD eyes open 1,Original CD,Nos,1,0,1,15,1
+,CD eyes open 2,Original CD,Nos,1,0,1,15,1
+,sStory Fun 4,story Fun ,Nos,1,0,1,150,1
+,sStory Fun 5,story Fun ,Nos,1,0,1,150,1
+,Bed Time Stories 365,Pre school,Nos,1,0,1,0,1
+,Activites D  Eveil,Pre school,Nos,1,0,1,0,1
+,Amis,Pre school,Nos,1,0,1,0,1
+,Baby Time Things That Go ,Pre school,Nos,1,0,1,0,1
+,Baby Tine My Pets ,Pre school,Nos,1,0,1,0,1
+,Baby Tine My Toys ,Pre school,Nos,1,0,1,0,1
+,Bunny 1 Edition ,Pre school,Nos,1,0,1,0,1
+,Copy Maternlle,Pre school,Nos,1,0,1,0,1
+,Count,Pre school,Nos,1,0,1,0,1
+,Cranky Cockerel,Pre school,Nos,1,0,1,0,1
+,Cuting Starter,Pre school,Nos,1,0,1,0,1
+,Dans La Ferme,Pre school,Nos,1,0,1,0,1
+,Dans La Mer,Pre school,Nos,1,0,1,0,1
+,Dans Les Aufes,Pre school,Nos,1,0,1,0,1
+,Des Mots Et Des Images,Pre school,Nos,1,0,1,0,1
+,DU Rififi,Pre school,Nos,1,0,1,0,1
+,Ecrire Computer Et Calculer,Pre school,Nos,1,0,1,0,1
+,Fam Animals ,Pre school,Nos,1,0,1,0,1
+,First Friends ,Pre school,Nos,1,0,1,0,1
+,Francais Alphabet ,Pre school,Nos,1,0,1,0,1
+,Ielts Material,Pre school,Nos,1,0,1,0,1
+,Jardine De Francais ,Pre school,Nos,1,0,1,0,1
+,Jeuxde Logique ,Pre school,Nos,1,0,1,0,1
+,Jnitiation au Calcule,Pre school,Nos,1,0,1,0,1
+,Jnitiation au mots ,Pre school,Nos,1,0,1,0,1
+,Big Kartens Pad ,Pre school,Nos,1,0,1,0,1
+,Smale Kartens Pad ,Pre school,Nos,1,0,1,0,1
+,La Ecole ,Pre school,Nos,1,0,1,0,1
+,La Ferme,Pre school,Nos,1,0,1,0,1
+,La Foret,Pre school,Nos,1,0,1,0,1
+,La Heure,Pre school,Nos,1,0,1,0,1
+,La Maison des Animaux,Pre school,Nos,1,0,1,0,1
+,La Maternel,Pre school,Nos,1,0,1,0,1
+,La mer,Pre school,Nos,1,0,1,0,1
+,La montagne ,Pre school,Nos,1,0,1,0,1
+,La savane,Pre school,Nos,1,0,1,0,1
+,La nguages,Pre school,Nos,1,0,1,0,1
+,Le Ciel,Pre school,Nos,1,0,1,0,1
+,Le Corps,Pre school,Nos,1,0,1,0,1
+,Les Animaux Sauvages,Pre school,Nos,1,0,1,0,1
+,Les Cinq sens,Pre school,Nos,1,0,1,0,1
+,Les Dinosaures,Pre school,Nos,1,0,1,0,1
+,Les Excalibrius,Pre school,Nos,1,0,1,0,1
+,Les Paroles Des Chansons,Pre school,Nos,1,0,1,0,1
+,Les Py lales N.Z,Pre school,Nos,1,0,1,0,1
+,Les Quatre Saisons ,Pre school,Nos,1,0,1,0,1
+,Les Saisons ,Pre school,Nos,1,0,1,0,1
+,Les Transports,Pre school,Nos,1,0,1,0,1
+,Lettres Et Chif Fres,Pre school,Nos,1,0,1,0,1
+,Lion King ,Pre school,Nos,1,0,1,0,1
+,Lost And Found,Pre school,Nos,1,0,1,0,1
+,Macha Et La Rciere Des Neiges,Pre school,Nos,1,0,1,0,1
+,Mamie,Pre school,Nos,1,0,1,0,1
+,Manger Ca Sert Aquoi,Pre school,Nos,1,0,1,0,1
+,Matenelle Programne ,Pre school,Nos,1,0,1,0,1
+,Matenelle maxi,Pre school,Nos,1,0,1,0,1
+,Matevnelle,Pre school,Nos,1,0,1,0,1
+,matilde,Pre school,Nos,1,0,1,0,1
+,Mon Bloc,Pre school,Nos,1,0,1,0,1
+,Never Land ,Pre school,Nos,1,0,1,0,1
+,Nino ET lalaminette,Pre school,Nos,1,0,1,0,1
+,On The Go,Pre school,Nos,1,0,1,0,1
+,Opposites,Pre school,Nos,1,0,1,0,1
+,Pand Bears,Pre school,Nos,1,0,1,0,1
+,Politesse,Pre school,Nos,1,0,1,0,1
+,Quacking Up,Pre school,Nos,1,0,1,0,1
+,Reflexion Rapide,Pre school,Nos,1,0,1,0,1
+,Science,Pre school,Nos,1,0,1,0,1
+,Seasons,Pre school,Nos,1,0,1,0,1
+,Sleeping Beauty ,Pre school,Nos,1,0,1,0,1
+,So Many Surprises,Pre school,Nos,1,0,1,0,1
+,Soleile,Pre school,Nos,1,0,1,0,1
+,The Express Picture,Pre school,Nos,1,0,1,0,1
+,The Hand and Tortoise,Pre school,Nos,1,0,1,0,1
+,Tiger lily Anel the Water fall,Pre school,Nos,1,0,1,0,1
+,Too Much Honey,Pre school,Nos,1,0,1,0,1
+,Tooting Around ,Pre school,Nos,1,0,1,0,1
+,Un Tour en Mer ,Pre school,Nos,1,0,1,0,1
+,Under The sea ,Pre school,Nos,1,0,1,0,1
+,You And Me ,Pre school,Nos,1,0,1,0,1
+,Microscope ,Pre school,Nos,1,25,1,15,1
+,Copy  Access Arabic ,Copy IT,Nos,1,25,1,15,1
+,Excel Arabic  ,Copy IT,Nos,1,25,1,15,1
+,Internet Arabic ,Copy IT,Nos,1,25,1,15,1
+,IT Arabic ,Copy IT,Nos,1,25,1,15,1
+,Power Point Arabic ,Copy IT,Nos,1,25,1,15,1
+,Windows Arabic ,Copy IT,Nos,1,25,1,15,1
+,Word Arabic ,Copy IT,Nos,1,25,1,15,1
+,Copy Arabic 1,Copy Arabic,Nos,1,25,1,15,1
+,Copy Arabic 2,Copy Arabic,Nos,1,25,1,15,1
+,Copy Arabic 3,Copy Arabic,Nos,1,25,1,15,1
+,Copy Arabic 4,Copy Arabic,Nos,1,25,1,15,1
+,Copy Arabic 5,Copy Arabic,Nos,1,25,1,15,1
+,Copy Arabic 6,Copy Arabic,Nos,1,25,1,15,1
+,Copy Con 1,Copy Con ,Nos,1,25,1,15,1
+,Copy Con 2,Copy Con ,Nos,1,25,1,15,1
+,Copy Con 3,Copy Con ,Nos,1,25,1,15,1
+,Copy Con 4,Copy Con ,Nos,1,25,1,15,1
+,Copy Con 5,Copy Con ,Nos,1,25,1,15,1
+,Copy Con 6,Copy Con ,Nos,1,25,1,15,1
+,Copy Con 7,Copy Con ,Nos,1,25,1,15,1
+,Copy Con 8,Copy Con ,Nos,1,25,1,15,1
+,Copy Con 9,Copy Con ,Nos,1,25,1,15,1
+,Copy Con 10,Copy Con ,Nos,1,25,1,15,1
+,Copy Con 11,Copy Con ,Nos,1,25,1,15,1
+,Copy Con 12,Copy Con ,Nos,1,25,1,15,1
+,Copy Espanol 1,Copy Espanol ,Nos,1,25,1,15,1
+,Copy Espanol 2,Copy Espanol ,Nos,1,25,1,15,1
+,Copy Espanol 3,Copy Espanol ,Nos,1,25,1,15,1
+,Copy Espanol 4,Copy Espanol ,Nos,1,25,1,15,1
+,Copy Espanol 5,Copy Espanol ,Nos,1,25,1,15,1
+,Copy Espanol 6,Copy Espanol ,Nos,1,25,1,15,1
+,Copy Espanol 7,Copy Espanol ,Nos,1,25,1,15,1
+,Copy Espanol 8,Copy Espanol ,Nos,1,25,1,15,1
+,Copy Espanol 9,Copy Espanol ,Nos,1,25,1,15,1
+,Copy Espanol 10,Copy Espanol ,Nos,1,25,1,15,1
+,Copy French 1 ,Copy French ,Nos,1,25,1,15,1
+,Copy French 2 ,Copy French ,Nos,1,25,1,15,1
+,Copy French 3 ,Copy French ,Nos,1,25,1,15,1
+,Copy French 4,Copy French ,Nos,1,25,1,15,1
+,Copy French 5,Copy French ,Nos,1,25,1,15,1
+,Copy French 6,Copy French ,Nos,1,25,1,15,1
+,Copy French 7,Copy French ,Nos,1,25,1,15,1
+,Copy French 8,Copy French ,Nos,1,25,1,15,1
+,Copy French 9,Copy French ,Nos,1,25,1,15,1
+,Copy French 10,Copy French ,Nos,1,25,1,15,1
+,Copy French 11,Copy French ,Nos,1,25,1,15,1
+,Copy German 1,Copy German,Nos,1,25,1,15,1
+,Copy German 2,Copy German,Nos,1,25,1,15,1
+,Copy German 3,Copy German,Nos,1,25,1,15,1
+,Copy German 4,Copy German,Nos,1,25,1,15,1
+,Copy German 5,Copy German,Nos,1,25,1,15,1
+,Copy German 6,Copy German,Nos,1,25,1,15,1
+,Copy German 7,Copy German,Nos,1,25,1,15,1
+,Copy German 8,Copy German,Nos,1,25,1,15,1
+,Copy German 9,Copy German,Nos,1,25,1,15,1
+,Copy German 10,Copy German,Nos,1,25,1,15,1
+,Copy German From 8:9,Copy German,Nos,1,25,1,15,1
+,Copy Italy 1,Copy Italy ,Nos,1,25,1,15,1
+,Copy Italy 2,Copy Italy ,Nos,1,25,1,15,1
+,Copy Italy 3,Copy Italy ,Nos,1,25,1,15,1
+,Copy Italy 4,Copy Italy ,Nos,1,25,1,15,1
+,Copy Italy 5,Copy Italy ,Nos,1,25,1,15,1
+,Copy Italy 6,Copy Italy ,Nos,1,25,1,15,1
+,Copy Italy 7,Copy Italy ,Nos,1,25,1,15,1
+,Copy Italy 8,Copy Italy ,Nos,1,25,1,15,1
+,Copy Italy 9,Copy Italy ,Nos,1,25,1,15,1
+,Copy Italy 10,Copy Italy ,Nos,1,25,1,15,1
+,Copy Kid's 1 A,Copy Kid's,Nos,1,25,1,15,1
+,Copy Kid's 1 B,Copy Kid's,Nos,1,25,1,15,1
+,Copy Kid's 1 C,Copy Kid's,Nos,1,25,1,15,1
+,Copy Kid's 2 A,Copy Kid's,Nos,1,25,1,15,1
+,Copy Kid's 2 B,Copy Kid's,Nos,1,25,1,15,1
+,Copy Kid's 2 C,Copy Kid's,Nos,1,25,1,15,1
+,Copy Kid's 3 A,Copy Kid's,Nos,1,25,1,15,1
+,Copy Kid's 3 B,Copy Kid's,Nos,1,25,1,15,1
+,Copy Kid's 3 C,Copy Kid's,Nos,1,25,1,15,1
+,Copy Kid's 4 A,Copy Kid's,Nos,1,25,1,15,1
+,Copy Kid's 4 B,Copy Kid's,Nos,1,25,1,15,1
+,Copy Kid's 4 C,Copy Kid's,Nos,1,25,1,15,1
+,Copy Kid's 5 A,Copy Kid's,Nos,1,25,1,15,1
+,Copy Kid's 5 B,Copy Kid's,Nos,1,25,1,15,1
+,Copy Kid's 5 C,Copy Kid's,Nos,1,25,1,15,1
+,Copy Kid's 6 A,Copy Kid's,Nos,1,25,1,15,1
+,Copy Kid's 6 B,Copy Kid's,Nos,1,25,1,15,1
+,Copy Kid's 6 C,Copy Kid's,Nos,1,25,1,15,1
+,Copy Lv 1 W.B,Copy English ,Nos,1,25,1,15,1
+,Copy Lv 1 S.B,Copy English ,Nos,1,25,1,15,1
+,Copy Lv 1 W.B+ S.B,Copy English ,Nos,1,25,1,15,1
+,Copy Lv 2 W.B,Copy English ,Nos,1,25,1,15,1
+,Copy Lv 2 S.B,Copy English ,Nos,1,25,1,15,1
+,Copy Lv 2 W.B+ S.B,Copy English ,Nos,1,25,1,15,1
+,Copy Lv 3 W.B,Copy English ,Nos,1,25,1,15,1
+,Copy Lv 3 S.B,Copy English ,Nos,1,25,1,15,1
+,Copy Lv 3 W.B+ S.B,Copy English ,Nos,1,25,1,15,1
+,Copy Lv 4 W.B,Copy English ,Nos,1,25,1,15,1
+,Copy Lv 4 S.B,Copy English ,Nos,1,25,1,15,1
+,Copy Lv 4 W.B+ S.B,Copy English ,Nos,1,25,1,15,1
+,Copy Lv 5 W.B,Copy English ,Nos,1,25,1,15,1
+,Copy Lv 5 S.B,Copy English ,Nos,1,25,1,15,1
+,Copy Lv 5 W.B+ S.B,Copy English ,Nos,1,25,1,15,1
+,Copy Lv 6 W.B,Copy English ,Nos,1,25,1,15,1
+,Copy Lv 6 S.B,Copy English ,Nos,1,25,1,15,1
+,Copy Lv 6 W.B+ S.B,Copy English ,Nos,1,25,1,15,1
+,Copy Lv 7 W.B,Copy English ,Nos,1,25,1,15,1
+,Copy Lv 7 S.B,Copy English ,Nos,1,25,1,15,1
+,Copy Lv 7 W.B+ S.B,Copy English ,Nos,1,25,1,15,1
+,Copy Lv 8 W.B,Copy English ,Nos,1,25,1,15,1
+,Copy Lv 8 S.B,Copy English ,Nos,1,25,1,15,1
+,Copy Lv 8 W.B+ S.B,Copy English ,Nos,1,25,1,15,1
+,Copy Lv 9 W.B,Copy English ,Nos,1,25,1,15,1
+,Copy Lv 9 S.B,Copy English ,Nos,1,25,1,15,1
+,Copy Lv 9 W.B+ S.B,Copy English ,Nos,1,25,1,15,1
+,Copy Lv 10 W.B,Copy English ,Nos,1,25,1,15,1
+,Copy Lv 10 S.B,Copy English ,Nos,1,25,1,15,1
+,Copy Lv 10 W.B+ S.B,Copy English ,Nos,1,25,1,15,1
+,Copy Lv 11 W.B,Copy English ,Nos,1,25,1,15,1
+,Copy Lv 11 S.B,Copy English ,Nos,1,25,1,15,1
+,Copy Lv 11 W.B+ S.B,Copy English ,Nos,1,25,1,15,1
+,Copy Lv 12 W.B,Copy English ,Nos,1,25,1,15,1
+,Copy Lv 12 S.B,Copy English ,Nos,1,25,1,15,1
+,Copy Lv 12 W.B+ S.B,Copy English ,Nos,1,25,1,15,1
+,Copy Lv 13 W.B,Copy English ,Nos,1,25,1,15,1
+,Copy Lv 13 S.B,Copy English ,Nos,1,25,1,15,1
+,Copy Lv 13 W.B+ S.B,Copy English ,Nos,1,25,1,15,1
+,Copy Lv 14 W.B,Copy English ,Nos,1,25,1,15,1
+,Copy Lv 14 S.B,Copy English ,Nos,1,25,1,15,1
+,Copy Lv 14 W.B+ S.B,Copy English ,Nos,1,25,1,15,1
+,Copy Lv 15 W.B,Copy English ,Nos,1,25,1,15,1
+,Copy Lv 15 S.B,Copy English ,Nos,1,25,1,15,1
+,Copy Lv 15 W.B+ S.B,Copy English ,Nos,1,25,1,15,1
+,Copy Lv 16 W.B,Copy English ,Nos,1,25,1,15,1
+,Copy Lv 16 S.B,Copy English ,Nos,1,25,1,15,1
+,Copy Lv 16 W.B+ S.B,Copy English ,Nos,1,25,1,15,1
+,Copy Lv 1 T.B,Copy English ,Nos,1,25,1,15,1
+,Copy Lv 2 T.B,Copy English ,Nos,1,25,1,15,1
+,Copy Lv 3 T.B,Copy English ,Nos,1,25,1,15,1
+,Copy Lv 4 T.B,Copy English ,Nos,1,25,1,15,1
+,Copy Lv 5 T.B,Copy English ,Nos,1,25,1,15,1
+,Copy Lv 6 T.B,Copy English ,Nos,1,25,1,15,1
+,Copy Lv 7 T.B,Copy English ,Nos,1,25,1,15,1
+,Copy Lv 8 T.B,Copy English ,Nos,1,25,1,15,1
+,Copy Lv 9 T.B,Copy English ,Nos,1,25,1,15,1
+,Copy Lv 10 T.B,Copy English ,Nos,1,25,1,15,1
+,Copy Lv 11 T.B,Copy English ,Nos,1,25,1,15,1
+,Copy Lv 12 T.B,Copy English ,Nos,1,25,1,15,1
+,Copy Lv 13 T.B,Copy English ,Nos,1,25,1,15,1
+,Copy Lv 14 T.B,Copy English ,Nos,1,25,1,15,1
+,Copy Lv 15 T.B,Copy English ,Nos,1,25,1,15,1
+,Copy Lv 16 T.B,Copy English ,Nos,1,25,1,15,1
+,Essentioal Bulats ,Polats ,Nos,1,0,1,250,1
+,Progetto 2B,Progetto,Nos,1,0,1,270,1
+,Progetto 2A,Progetto,Nos,1,0,1,270,1
+,Progetto A1 -A2,Progetto,Nos,1,0,1,270,1
+,Aula 1,Aula ,Nos,1,0,1,260,1
+,Aula 2,Aula ,Nos,1,0,1,260,1

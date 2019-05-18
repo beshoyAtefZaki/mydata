@@ -1,0 +1,190 @@
+Data Import Template,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+Table:,Salary Structure,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+Notes:,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+Please do not change the template headings.,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+First data column must be blank.,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+"If you are uploading new records, leave the ""name"" (ID) column blank.",,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+"If you are uploading new records, ""Naming Series"" becomes mandatory, if present.",,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+Only mandatory fields are necessary for new records. You can delete non-mandatory columns if you wish.,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+"For updating, you can update only selective columns.",,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+You can only upload upto 5000 records in one go. (may be less in some cases),,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+DocType:,Salary Structure,,,,,,,,,,,,,~,Salary Detail,earnings,,,,,,,,,,,,,,,~,Salary Detail,deductions,,,,,,,,,,,,,,
+Column Labels:,ID,Company,Is Active,Letter Head,Payroll Frequency,Salary Slip Based on Timesheet,Salary Component,Hour Rate,Leave Encashment Amount Per Day,Max Benefits (Amount),Mode of Payment,Payment Account,Amended From,,ID,Component,Abbr,Statistical Component,Is Tax Applicable,Is Flexible Benefit,Variable Based On Taxable Salary,Depends on Leave Without Pay,Condition,Amount based on formula,Formula,Amount,Do not include in total,Default Amount,Tax on flexible benefit,Tax on additional salary,,ID,Component,Abbr,Statistical Component,Is Tax Applicable,Is Flexible Benefit,Variable Based On Taxable Salary,Depends on Leave Without Pay,Condition,Amount based on formula,Formula,Amount,Do not include in total,Default Amount,Tax on flexible benefit,Tax on additional salary
+Column Name:,name,company,is_active,letter_head,payroll_frequency,salary_slip_based_on_timesheet,salary_component,hour_rate,leave_encashment_amount_per_day,max_benefits,mode_of_payment,payment_account,amended_from,~,name,salary_component,abbr,statistical_component,is_tax_applicable,is_flexible_benefit,variable_based_on_taxable_salary,depends_on_lwp,condition,amount_based_on_formula,formula,amount,do_not_include_in_total,default_amount,tax_on_flexible_benefit,tax_on_additional_salary,~,name,salary_component,abbr,statistical_component,is_tax_applicable,is_flexible_benefit,variable_based_on_taxable_salary,depends_on_lwp,condition,amount_based_on_formula,formula,amount,do_not_include_in_total,default_amount,tax_on_flexible_benefit,tax_on_additional_salary
+Mandatory:,Yes,Yes,Yes,No,No,No,No,No,No,No,No,No,No,,Yes,Yes,No,No,No,No,No,No,No,No,No,No,No,No,No,No,,Yes,Yes,No,No,No,No,No,No,No,No,No,No,No,No,No,No
+Type:,Data,Link,Select,Link,Select,Check,Link,Currency,Currency,Currency,Link,Link,Link,,Data,Link,Data,Check,Check,Check,Check,Check,Code,Check,Code,Currency,Check,Currency,Currency,Currency,,Data,Link,Data,Check,Check,Check,Check,Check,Code,Check,Code,Currency,Check,Currency,Currency,Currency
+Info:,,Valid Company,"One of: Yes, No",Valid Letter Head,"One of: Monthly, Fortnightly, Bimonthly, Weekly, Daily",0 or 1,Valid Salary Component,,,,Valid Mode of Payment,Valid Account,Valid Salary Structure,,,Valid Salary Component,,0 or 1,0 or 1,0 or 1,0 or 1,0 or 1,,0 or 1,,,0 or 1,,,,,,Valid Salary Component,,0 or 1,0 or 1,0 or 1,0 or 1,0 or 1,,0 or 1,,,0 or 1,,,
+Start entering data below this line,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,"""سماح نبيل زكى""",الحضانة,Yes,,Monthly,0,,0,0,0,Cash,,,,"""41f023ecc7""",Basic,B,0,1,0,0,0,,0,base,0,0,0,0,0,,"""b49e304335""",Insurance,I,0,0,0,0,0,,0,,0,0,0,0,0
+,,,,,,,,,,,,,,,"""84a6ea3b5c""",Variable,V,0,1,0,0,0,,0,variable,0,0,0,0,0,,"""fd05d46867""",Lates,La,0,0,0,0,0,,0,,0,0,0,0,0
+,,,,,,,,,,,,,,,"""207c09108c""",Transport,T,0,0,0,0,0,,0,(base+variable) / 26 * attendance_present,0,0,0,0,0,,"""fe4c7809dd""",Leave without pay,LWP,0,0,0,0,0,,0,,0,0,0,0,0
+,,,,,,,,,,,,,,,"""ee727c6ee0""",Additional,Ad,0,1,0,0,0,,0,(base+variable) / 26 * attendance_present,0,0,0,0,0,,"""1e7bbe4a9d""",Absent,AB,0,0,0,0,0,,0,,0,0,0,0,0
+,"""نورا فتحى محمد""",الحضانة,Yes,,Monthly,0,,0,0,0,Cash,,,,"""9cc8f15c1d""",Basic,B,0,1,0,0,0,,0,base,0,0,0,0,0,,"""6c32d646c5""",Insurance,I,0,0,0,0,0,,0,,0,0,0,0,0
+,,,,,,,,,,,,,,,"""4b000aac29""",Variable,V,0,1,0,0,0,,0,variable,0,0,0,0,0,,"""0600bc3bc4""",Lates,La,0,0,0,0,0,,0,,0,0,0,0,0
+,,,,,,,,,,,,,,,"""522886cb17""",Transport,T,0,0,0,0,0,,0,(base+variable) / 26 * attendance_present,0,0,0,0,0,,"""cc39b04c2c""",Leave without pay,LWP,0,0,0,0,0,,0,,0,0,0,0,0
+,,,,,,,,,,,,,,,"""bebb539f41""",Additional,Ad,0,1,0,0,0,,0,(base+variable) / 26 * attendance_present,0,0,0,0,0,,"""d2463e3083""",Absent,AB,0,0,0,0,0,,0,,0,0,0,0,0
+,"""هدى عبدالرشيد عبدالعاطى""",الحضانة,Yes,,Monthly,0,,0,0,0,Cash,,,,"""08d9c022b5""",Basic,B,0,1,0,0,0,,0,base,0,0,0,0,0,,"""396b4ffb0b""",Insurance,I,0,0,0,0,0,,0,,0,0,0,0,0
+,,,,,,,,,,,,,,,"""537e43aae8""",Variable,V,0,1,0,0,0,,0,variable,0,0,0,0,0,,"""68803528fd""",Lates,La,0,0,0,0,0,,0,,0,0,0,0,0
+,,,,,,,,,,,,,,,"""1a421c5921""",Transport,T,0,0,0,0,0,,0,(base+variable) / 26 * attendance_present,0,0,0,0,0,,"""bf9b5caf72""",Leave without pay,LWP,0,0,0,0,0,,0,,0,0,0,0,0
+,,,,,,,,,,,,,,,"""2d87b1bd06""",Additional,Ad,0,1,0,0,0,,0,(base+variable) / 26 * attendance_present,0,0,0,0,0,,"""d3838fbac3""",Absent,AB,0,0,0,0,0,,0,,0,0,0,0,0
+,"""ياسمين سيد محمد""",الحضانة,Yes,,Monthly,0,,0,0,0,Cash,,,,"""46f83562f1""",Basic,B,0,1,0,0,0,,0,base,0,0,0,0,0,,"""5e6dfc2b4e""",Insurance,I,0,0,0,0,0,,0,,0,0,0,0,0
+,,,,,,,,,,,,,,,"""2fe9608888""",Variable,V,0,1,0,0,0,,0,variable,0,0,0,0,0,,"""4f2857ec28""",Lates,La,0,0,0,0,0,,0,,0,0,0,0,0
+,,,,,,,,,,,,,,,"""eeb87ed37e""",Transport,T,0,0,0,0,0,,0,(base+variable) / 26 * attendance_present,0,0,0,0,0,,"""e6759e5613""",Leave without pay,LWP,0,0,0,0,0,,0,,0,0,0,0,0
+,,,,,,,,,,,,,,,"""b1e93ec34a""",Additional,Ad,0,1,0,0,0,,0,(base+variable) / 26 * attendance_present,0,0,0,0,0,,"""a4f7ae0845""",Absent,AB,0,0,0,0,0,,0,,0,0,0,0,0
+,"""ايمان بلال محمد""",الحضانة,Yes,,Monthly,0,,0,0,0,Cash,,,,"""89be1d5139""",Basic,B,0,1,0,0,0,,0,base,0,0,0,0,0,,"""046ef502c6""",Insurance,I,0,0,0,0,0,,0,,0,0,0,0,0
+,,,,,,,,,,,,,,,"""743a121829""",Variable,V,0,1,0,0,0,,0,variable,0,0,0,0,0,,"""92af1c3b0c""",Lates,La,0,0,0,0,0,,0,,0,0,0,0,0
+,,,,,,,,,,,,,,,"""2e66b37020""",Transport,T,0,0,0,0,0,,0,(base+variable) / 26 * attendance_present,0,0,0,0,0,,"""c9b79b7cff""",Leave without pay,LWP,0,0,0,0,0,,0,,0,0,0,0,0
+,,,,,,,,,,,,,,,"""58548b11cf""",Additional,Ad,0,1,0,0,0,,0,(base+variable) / 26 * attendance_present,0,0,0,0,0,,"""bf9b2a7be0""",Absent,AB,0,0,0,0,0,,0,,0,0,0,0,0
+,"""سيد رمضان سيد""",الحضانة,Yes,,Monthly,0,,0,0,0,Cash,,,,"""49626f8305""",Basic,B,0,1,0,0,0,,0,base,0,0,0,0,0,,"""270226edf7""",Insurance,I,0,0,0,0,0,,0,,0,0,0,0,0
+,,,,,,,,,,,,,,,"""750f944015""",Variable,V,0,1,0,0,0,,0,variable,0,0,0,0,0,,"""69bd6794b4""",Lates,La,0,0,0,0,0,,0,,0,0,0,0,0
+,,,,,,,,,,,,,,,"""1a51b93825""",Transport,T,0,0,0,0,0,,0,(base+variable) / 26 * attendance_present,0,0,0,0,0,,"""af736770dc""",Leave without pay,LWP,0,0,0,0,0,,0,,0,0,0,0,0
+,,,,,,,,,,,,,,,"""70bf2d9df0""",Additional,Ad,0,1,0,0,0,,0,(base+variable) / 26 * attendance_present,0,0,0,0,0,,"""532a509f79""",Absent,AB,0,0,0,0,0,,0,,0,0,0,0,0
+,"""اسماء محمد احمد""",الحضانة,Yes,,Monthly,0,,0,0,0,Cash,,,,"""435231a85f""",Basic,B,0,1,0,0,0,,0,base,0,0,0,0,0,,"""67944b4cb2""",Insurance,I,0,0,0,0,0,,0,,0,0,0,0,0
+,,,,,,,,,,,,,,,"""fc21dd9eb4""",Variable,V,0,1,0,0,0,,0,variable,0,0,0,0,0,,"""b7043a3845""",Lates,La,0,0,0,0,0,,0,,0,0,0,0,0
+,,,,,,,,,,,,,,,"""626abcb49c""",Transport,T,0,0,0,0,0,,0,(base+variable) / 26 * attendance_present,0,0,0,0,0,,"""bec5b518b7""",Leave without pay,LWP,0,0,0,0,0,,0,,0,0,0,0,0
+,,,,,,,,,,,,,,,"""5df5fcea25""",Additional,Ad,0,1,0,0,0,,0,(base+variable) / 26 * attendance_present,0,0,0,0,0,,"""36bffacd63""",Absent,AB,0,0,0,0,0,,0,,0,0,0,0,0
+,"""Amanda nadia chizimba""",الحضانة,Yes,,Monthly,0,,0,0,0,Cash,,,,"""8bbe296ab1""",Basic,B,0,1,0,0,0,,0,base,0,0,0,0,0,,"""8f519e4d91""",Insurance,I,0,0,0,0,0,,0,,0,0,0,0,0
+,,,,,,,,,,,,,,,"""70830f1f76""",Variable,V,0,1,0,0,0,,0,variable,0,0,0,0,0,,"""de6bc601b8""",Lates,La,0,0,0,0,0,,0,,0,0,0,0,0
+,,,,,,,,,,,,,,,"""016efc6d98""",Additional,Ad,0,1,0,0,0,,0,(base+variable) / 26 * attendance_present,0,0,0,0,0,,"""0c8d2625e0""",Leave without pay,LWP,0,0,0,0,0,,0,,0,0,0,0,0
+,,,,,,,,,,,,,,,"""ddd18aabea""",Transport,T,0,0,0,0,0,,0,(base+variable) / 26 * attendance_present,0,0,0,0,0,,"""8ef06ef3ee""",Absent,AB,0,0,0,0,0,,0,,0,0,0,0,0
+,"""امينة محمد عبدالرحمن""",الحضانة,Yes,,Monthly,0,,0,0,0,Cash,,,,"""3a5bf5cbe7""",Basic,B,0,1,0,0,0,,0,base,0,0,0,0,0,,"""f2cf00291a""",Insurance,I,0,0,0,0,0,,0,,0,0,0,0,0
+,,,,,,,,,,,,,,,"""8670bc680d""",Variable,V,0,1,0,0,0,,0,variable,0,0,0,0,0,,"""b78e310f2d""",Lates,La,0,0,0,0,0,,0,,0,0,0,0,0
+,,,,,,,,,,,,,,,"""d3604ffe63""",Transport,T,0,0,0,0,0,,0,(base+variable) / 26 * attendance_present,0,0,0,0,0,,"""1a79db6da0""",Leave without pay,LWP,0,0,0,0,0,,0,,0,0,0,0,0
+,,,,,,,,,,,,,,,"""1fd6952d00""",Additional,Ad,0,1,0,0,0,,0,(base+variable) / 26 * attendance_present,0,0,0,0,0,,"""2b5b281c4c""",Absent,AB,0,0,0,0,0,,0,,0,0,0,0,0
+,"""سارة نبيل عشماوى""",الحضانة,Yes,,Monthly,0,,0,0,0,Cash,,,,"""31ce246ac0""",Basic,B,0,1,0,0,0,,0,base,0,0,0,0,0,,"""01f736ca8e""",Insurance,I,0,0,0,0,0,,0,,0,0,0,0,0
+,,,,,,,,,,,,,,,"""4af06924d8""",Variable,V,0,1,0,0,0,,0,variable,0,0,0,0,0,,"""3e62ba04a7""",Lates,La,0,0,0,0,0,,0,,0,0,0,0,0
+,,,,,,,,,,,,,,,"""8faa51bb9c""",Transport,T,0,0,0,0,0,,0,(base+variable) / 26 * attendance_present,0,0,0,0,0,,"""5a3e7235df""",Leave without pay,LWP,0,0,0,0,0,,0,,0,0,0,0,0
+,,,,,,,,,,,,,,,"""615c898aba""",Additional,Ad,0,1,0,0,0,,0,(base+variable) / 26 * attendance_present,0,0,0,0,0,,"""dc287dbd7c""",Absent,AB,0,0,0,0,0,,0,,0,0,0,0,0
+,"""هبة عطية حسن""",الحضانة,Yes,,Monthly,0,,0,0,0,Cash,,,,"""b1c386c3fb""",Basic,B,0,1,0,0,0,,0,base,0,0,0,0,0,,"""0719545a04""",Insurance,I,0,0,0,0,0,,0,,0,0,0,0,0
+,,,,,,,,,,,,,,,"""973c94e9e2""",Variable,V,0,1,0,0,0,,0,variable,0,0,0,0,0,,"""902b5bdfe2""",Lates,La,0,0,0,0,0,,0,,0,0,0,0,0
+,,,,,,,,,,,,,,,"""aa11492581""",Transport,T,0,0,0,0,0,,0,(base+variable) / 26 * attendance_present,0,0,0,0,0,,"""ab23f9a2e3""",Leave without pay,LWP,0,0,0,0,0,,0,,0,0,0,0,0
+,,,,,,,,,,,,,,,"""e4024cc684""",Additional,Ad,0,1,0,0,0,,0,(base+variable) / 26 * attendance_present,0,0,0,0,0,,"""786c74c370""",Absent,AB,0,0,0,0,0,,0,,0,0,0,0,0
+,"""هند اشرف انور""",الحضانة,Yes,,Monthly,0,,0,0,0,Cash,,,,"""dd183cdf71""",Basic,B,0,1,0,0,0,,0,base,0,0,0,0,0,,"""6d25a4285f""",Insurance,I,0,0,0,0,0,,0,,0,0,0,0,0
+,,,,,,,,,,,,,,,"""f981bd6592""",Variable,V,0,1,0,0,0,,0,variable,0,0,0,0,0,,"""7324475ecd""",Lates,La,0,0,0,0,0,,0,,0,0,0,0,0
+,,,,,,,,,,,,,,,"""603a2bbfc3""",Transport,T,0,0,0,0,0,,0,(base+variable) / 26 * attendance_present,0,0,0,0,0,,"""f96f949a77""",Leave without pay,LWP,0,0,0,0,0,,0,,0,0,0,0,0
+,,,,,,,,,,,,,,,"""02ffe828d5""",Additional,Ad,0,1,0,0,0,,0,(base+variable) / 26 * attendance_present,0,0,0,0,0,,"""05fd42e9e6""",Absent,AB,0,0,0,0,0,,0,,0,0,0,0,0
+,"""صفا نصر عبدالعال""",الرئيسى,Yes,,Monthly,0,,0,0,0,Cash,,,,"""0475eb364b""",Basic,B,0,1,0,0,0,,0,base,0,0,0,0,0,,"""3f2e12c11a""",Insurance,I,0,0,0,0,0,,0,,0,0,0,0,0
+,,,,,,,,,,,,,,,"""76b6c7d107""",Variable,V,0,1,0,0,0,,0,variable,0,0,0,0,0,,"""f549261c81""",Lates,La,0,0,0,0,0,,0,,0,0,0,0,0
+,,,,,,,,,,,,,,,"""3417c72c64""",Transport,T,0,0,0,0,0,,0,(base+variable) / 26 * attendance_present,0,0,0,0,0,,"""a0ea8cb6d6""",Leave without pay,LWP,0,0,0,0,0,,0,,0,0,0,0,0
+,,,,,,,,,,,,,,,"""7b71533f5f""",Additional,Ad,0,1,0,0,0,,0,(base+variable) / 26 * attendance_present,0,0,0,0,0,,"""c0793543e8""",Absent,AB,0,0,0,0,0,,0,,0,0,0,0,0
+,"""عمرو محمد فؤاد""",زايد,Yes,,Monthly,0,,0,0,0,Cash,,,,"""6c29ef04ad""",Basic,B,0,1,0,0,0,,0,base,0,0,0,0,0,,"""4f0c413503""",Insurance,I,0,0,0,0,0,,0,,0,0,0,0,0
+,,,,,,,,,,,,,,,"""7c54f156bc""",Variable,V,0,1,0,0,0,,0,variable,0,0,0,0,0,,"""4e8aeb8174""",Lates,La,0,0,0,0,0,,0,,0,0,0,0,0
+,,,,,,,,,,,,,,,"""aa68015007""",Transport,T,0,0,0,0,0,,0,(base+variable) / 26 * attendance_present,0,0,0,0,0,,"""e0a44d6ecd""",Leave without pay,LWP,0,0,0,0,0,,0,,0,0,0,0,0
+,,,,,,,,,,,,,,,"""db5be783cd""",Additional,Ad,0,1,0,0,0,,0,(base+variable) / 26 * attendance_present,0,0,0,0,0,,"""d252be5866""",Absent,AB,0,0,0,0,0,,0,,0,0,0,0,0
+,"""محمد مصطفى عبدالسلام""",الرئيسى,Yes,,Monthly,0,,0,0,0,Cash,,,,"""0af9e64521""",Basic,B,0,1,0,0,0,,0,base,0,0,0,0,0,,"""280b582327""",Insurance,I,0,0,0,0,0,,0,,0,0,0,0,0
+,,,,,,,,,,,,,,,"""36d0d582fc""",Variable,V,0,1,0,0,0,,0,variable,0,0,0,0,0,,"""44fdac2539""",Lates,La,0,0,0,0,0,,0,,0,0,0,0,0
+,,,,,,,,,,,,,,,"""48c13ea11b""",Transport,T,0,0,0,0,0,,0,(base+variable) / 26 * attendance_present,0,0,0,0,0,,"""4cb6fbf3e6""",Leave without pay,LWP,0,0,0,0,0,,0,,0,0,0,0,0
+,,,,,,,,,,,,,,,"""1aa340688f""",Additional,Ad,0,1,0,0,0,,0,(base+variable) / 26 * attendance_present,0,0,0,0,0,,"""23a34fb1cc""",Absent,AB,0,0,0,0,0,,0,,0,0,0,0,0
+,"""احمد سامى محمود""",الرئيسى,Yes,,Monthly,0,,0,0,0,Cash,,,,"""cdbd8192c4""",Basic,B,0,1,0,0,0,,0,base,0,0,0,0,0,,"""4471ae9d4b""",Insurance,I,0,0,0,0,0,,0,,0,0,0,0,0
+,,,,,,,,,,,,,,,"""c386f0fa76""",Variable,V,0,1,0,0,0,,0,variable,0,0,0,0,0,,"""a8cba0108f""",Lates,La,0,0,0,0,0,,0,,0,0,0,0,0
+,,,,,,,,,,,,,,,"""094e468f9f""",Transport,T,0,0,0,0,0,,0,(base+variable) / 26 * attendance_present,0,0,0,0,0,,"""099fa12a10""",Leave without pay,LWP,0,0,0,0,0,,0,,0,0,0,0,0
+,,,,,,,,,,,,,,,"""046e9a707f""",Additional,Ad,0,1,0,0,0,,0,(base+variable) / 26 * attendance_present,0,0,0,0,0,,"""ec2851e0cd""",Absent,AB,0,0,0,0,0,,0,,0,0,0,0,0
+,"""عماد حنا ميخائيل""",الرئيسى,Yes,,Monthly,0,,0,0,0,Cash,,,,"""172ddfadbf""",Basic,B,0,1,0,0,0,,0,base,0,0,0,0,0,,"""bb4d6bf580""",Insurance,I,0,0,0,0,0,,0,,0,0,0,0,0
+,,,,,,,,,,,,,,,"""3e7489b70a""",Variable,V,0,1,0,0,0,,0,variable,0,0,0,0,0,,"""6095a446ab""",Lates,La,0,0,0,0,0,,0,,0,0,0,0,0
+,,,,,,,,,,,,,,,"""a225fef0bd""",Transport,T,0,0,0,0,0,,0,(base+variable) / 26 * attendance_present,0,0,0,0,0,,"""33217c34df""",Leave without pay,LWP,0,0,0,0,0,,0,,0,0,0,0,0
+,,,,,,,,,,,,,,,"""c09d5b7018""",Additional,Ad,0,1,0,0,0,,0,(base+variable) / 26 * attendance_present,0,0,0,0,0,,"""727986c7ee""",Absent,AB,0,0,0,0,0,,0,,0,0,0,0,0
+,"""كمال مسعد عبدالعزيز""",الرئيسى,Yes,,Monthly,0,,0,0,0,Cash,,,,"""12f67d959e""",Basic,B,0,1,0,0,0,,0,base,0,0,0,0,0,,"""666cab93b5""",Insurance,I,0,0,0,0,0,,0,,0,0,0,0,0
+,,,,,,,,,,,,,,,"""e0b3e1182e""",Variable,V,0,1,0,0,0,,0,variable,0,0,0,0,0,,"""1cefd2303b""",Lates,La,0,0,0,0,0,,0,,0,0,0,0,0
+,,,,,,,,,,,,,,,"""b778e272a7""",Transport,T,0,0,0,0,0,,0,(base+variable) / 26 * attendance_present,0,0,0,0,0,,"""e3278c6d60""",Leave without pay,LWP,0,0,0,0,0,,0,,0,0,0,0,0
+,,,,,,,,,,,,,,,"""2f3ff175e1""",Additional,Ad,0,1,0,0,0,,0,(base+variable) / 26 * attendance_present,0,0,0,0,0,,"""f9a4b239f8""",Absent,AB,0,0,0,0,0,,0,,0,0,0,0,0
+,"""ندى يوسف مأمون""",المعادى,Yes,,Monthly,0,,0,0,0,Cash,,,,"""8627c7b25e""",Basic,B,0,1,0,0,0,,0,base,0,0,0,0,0,,"""5985dbb438""",Insurance,I,0,0,0,0,0,,0,,0,0,0,0,0
+,,,,,,,,,,,,,,,"""0c9168dd5a""",Variable,V,0,1,0,0,0,,0,variable,0,0,0,0,0,,"""9ce66a84ef""",Lates,La,0,0,0,0,0,,0,,0,0,0,0,0
+,,,,,,,,,,,,,,,"""e442b72446""",Transport,T,0,0,0,0,0,,0,(base+variable) / 26 * attendance_present,0,0,0,0,0,,"""ba827b3926""",Leave without pay,LWP,0,0,0,0,0,,0,,0,0,0,0,0
+,,,,,,,,,,,,,,,"""26501f03a2""",Additional,Ad,0,1,0,0,0,,0,(base+variable) / 26 * attendance_present,0,0,0,0,0,,"""1f4bcb40f3""",Absent,AB,0,0,0,0,0,,0,,0,0,0,0,0
+,"""امنية عامر حسن""",المعادى,Yes,,Monthly,0,,0,0,0,Cash,,,,"""0f0ef6f66e""",Basic,B,0,1,0,0,0,,0,base,0,0,0,0,0,,"""69c02cdec0""",Insurance,I,0,0,0,0,0,,0,,0,0,0,0,0
+,,,,,,,,,,,,,,,"""411ae6d2b4""",Variable,V,0,1,0,0,0,,0,variable,0,0,0,0,0,,"""fba5a216ab""",Lates,La,0,0,0,0,0,,0,,0,0,0,0,0
+,,,,,,,,,,,,,,,"""80f74e0576""",Transport,T,0,0,0,0,0,,0,(base+variable) / 26 * attendance_present,0,0,0,0,0,,"""d167c7afac""",Leave without pay,LWP,0,0,0,0,0,,0,,0,0,0,0,0
+,,,,,,,,,,,,,,,"""1c6d7d1f16""",Additional,Ad,0,1,0,0,0,,0,(base+variable) / 26 * attendance_present,0,0,0,0,0,,"""b78375618c""",Absent,AB,0,0,0,0,0,,0,,0,0,0,0,0
+,"""كريم عبدالسلام محمود""",مدينة نصر,Yes,,Monthly,0,,0,0,0,Cash,,,,"""bea58610b4""",Basic,B,0,1,0,0,0,,0,base,0,0,0,0,0,,"""829ddb5009""",Insurance,I,0,0,0,0,0,,0,,0,0,0,0,0
+,,,,,,,,,,,,,,,"""245377f732""",Variable,V,0,1,0,0,0,,0,variable,0,0,0,0,0,,"""5d7aaf4ec9""",Lates,La,0,0,0,0,0,,0,,0,0,0,0,0
+,,,,,,,,,,,,,,,"""3ef74bb2a9""",Transport,T,0,0,0,0,0,,0,(base+variable) / 26 * attendance_present,0,0,0,0,0,,"""1b8380a582""",Leave without pay,LWP,0,0,0,0,0,,0,,0,0,0,0,0
+,,,,,,,,,,,,,,,"""c8b0ae2715""",Additional,Ad,0,1,0,0,0,,0,(base+variable) / 26 * attendance_present,0,0,0,0,0,,"""e9904ee34c""",Absent,AB,0,0,0,0,0,,0,,0,0,0,0,0
+,"""كرستين اشرف دوس""",الرئيسى,Yes,,Monthly,0,,0,0,0,Cash,,,,"""4750f6e145""",Basic,B,0,1,0,0,0,,0,base,0,0,0,0,0,,"""13c387d4ce""",Insurance,I,0,0,0,0,0,,0,,0,0,0,0,0
+,,,,,,,,,,,,,,,"""6f7fcef637""",Variable,V,0,1,0,0,0,,0,variable,0,0,0,0,0,,"""386a6c4655""",Lates,La,0,0,0,0,0,,0,,0,0,0,0,0
+,,,,,,,,,,,,,,,"""7faf54aa9d""",Transport,T,0,0,0,0,0,,0,(base+variable) / 26 * attendance_present,0,0,0,0,0,,"""b3d1079dbf""",Leave without pay,LWP,0,0,0,0,0,,0,,0,0,0,0,0
+,,,,,,,,,,,,,,,"""a5b14f3b7c""",Additional,Ad,0,1,0,0,0,,0,(base+variable) / 26 * attendance_present,0,0,0,0,0,,"""2985b74c92""",Absent,AB,0,0,0,0,0,,0,,0,0,0,0,0
+,"""وائل فايز محمد""",الرئيسى,Yes,,Monthly,0,,0,0,0,Cash,,,,"""c6a33ea567""",Basic,B,0,1,0,0,0,,0,base,0,0,0,0,0,,"""0fd505c663""",Insurance,I,0,0,0,0,0,,0,,0,0,0,0,0
+,,,,,,,,,,,,,,,"""1161937654""",Variable,V,0,1,0,0,0,,0,variable,0,0,0,0,0,,"""411d122988""",Lates,La,0,0,0,0,0,,0,,0,0,0,0,0
+,,,,,,,,,,,,,,,"""91567e0733""",Transport,T,0,0,0,0,0,,0,(base+variable) / 26 * attendance_present,0,0,0,0,0,,"""8083e4b4d6""",Leave without pay,LWP,0,0,0,0,0,,0,,0,0,0,0,0
+,,,,,,,,,,,,,,,"""010dca27e5""",Additional,Ad,0,1,0,0,0,,0,(base+variable) / 26 * attendance_present,0,0,0,0,0,,"""6af8a2bea2""",Absent,AB,0,0,0,0,0,,0,,0,0,0,0,0
+,"""وليد محمد محمد الطباخ""",المعادى,Yes,,Monthly,0,,0,0,0,Cash,,,,"""ffc53764d0""",Basic,B,0,1,0,0,0,,0,base,0,0,0,0,0,,"""37d6f741e8""",Insurance,I,0,0,0,0,0,,0,,0,0,0,0,0
+,,,,,,,,,,,,,,,"""4df4c8faa1""",Variable,V,0,1,0,0,0,,0,variable,0,0,0,0,0,,"""10f1be1ee8""",Lates,La,0,0,0,0,0,,0,,0,0,0,0,0
+,,,,,,,,,,,,,,,"""c37ad3ce33""",Transport,T,0,0,0,0,0,,0,(base+variable) / 26 * attendance_present,0,0,0,0,0,,"""70adceeb72""",Leave without pay,LWP,0,0,0,0,0,,0,,0,0,0,0,0
+,,,,,,,,,,,,,,,"""33f656edc2""",Additional,Ad,0,1,0,0,0,,0,(base+variable) / 26 * attendance_present,0,0,0,0,0,,"""0607824860""",Absent,AB,0,0,0,0,0,,0,,0,0,0,0,0
+,"""خالد عاطف يونس""",زايد,Yes,,Monthly,0,,0,0,0,Cash,,,,"""b2fe3518ce""",Basic,B,0,1,0,0,0,,0,base,0,0,0,0,0,,"""50c4597c04""",Insurance,I,0,0,0,0,0,,0,,0,0,0,0,0
+,,,,,,,,,,,,,,,"""42ce73f86d""",Variable,V,0,1,0,0,0,,0,variable,0,0,0,0,0,,"""d01ac8291c""",Lates,La,0,0,0,0,0,,0,,0,0,0,0,0
+,,,,,,,,,,,,,,,"""2db5ef429f""",Transport,T,0,0,0,0,0,,0,(base+variable) / 26 * attendance_present,0,0,0,0,0,,"""881b3af89e""",Leave without pay,LWP,0,0,0,0,0,,0,,0,0,0,0,0
+,,,,,,,,,,,,,,,"""65dd85f4a6""",Additional,Ad,0,1,0,0,0,,0,(base+variable) / 26 * attendance_present,0,0,0,0,0,,"""c53485a575""",Absent,AB,0,0,0,0,0,,0,,0,0,0,0,0
+,"""سلامه محمد عز الدين""",الرئيسى,Yes,,Monthly,0,,0,0,0,Cash,,,,"""e13efc7706""",Basic,B,0,1,0,0,0,,0,base,0,0,0,0,0,,"""3260d5cf05""",Insurance,I,0,0,0,0,0,,0,,0,0,0,0,0
+,,,,,,,,,,,,,,,"""4f8d88e331""",Variable,V,0,1,0,0,0,,0,variable,0,0,0,0,0,,"""ef66569a66""",Lates,La,0,0,0,0,0,,0,,0,0,0,0,0
+,,,,,,,,,,,,,,,"""2f22dc38cd""",Transport,T,0,0,0,0,0,,0,(base+variable) / 26 * attendance_present,0,0,0,0,0,,"""191db0a8ac""",Leave without pay,LWP,0,0,0,0,0,,0,,0,0,0,0,0
+,,,,,,,,,,,,,,,"""db9ef3b4fa""",Additional,Ad,0,1,0,0,0,,0,(base+variable) / 26 * attendance_present,0,0,0,0,0,,"""d1ff41c065""",Absent,AB,0,0,0,0,0,,0,,0,0,0,0,0
+,"""محمود سامى محمود محمد""",الرئيسى,Yes,,Monthly,0,,0,0,0,Cash,,,,"""ca3ef5a8dc""",Basic,B,0,1,0,0,0,,0,base,0,0,0,0,0,,"""b3c8a7af51""",Insurance,I,0,0,0,0,0,,0,,0,0,0,0,0
+,,,,,,,,,,,,,,,"""ad4ae55928""",Variable,V,0,1,0,0,0,,0,variable,0,0,0,0,0,,"""008c744751""",Lates,La,0,0,0,0,0,,0,,0,0,0,0,0
+,,,,,,,,,,,,,,,"""fbf5091896""",Transport,T,0,0,0,0,0,,0,(base+variable) / 26 * attendance_present,0,0,0,0,0,,"""8dabdd1206""",Leave without pay,LWP,0,0,0,0,0,,0,,0,0,0,0,0
+,,,,,,,,,,,,,,,"""7b63f2e5c4""",Additional,Ad,0,1,0,0,0,,0,(base+variable) / 26 * attendance_present,0,0,0,0,0,,"""6c324d82f3""",Absent,AB,0,0,0,0,0,,0,,0,0,0,0,0
+,"""محمد مختار محمد السيد""",الرئيسى,Yes,,Monthly,0,,0,0,0,Cash,,,,"""9ed024970a""",Basic,B,0,1,0,0,0,,0,base,0,0,0,0,0,,"""160c59d971""",Insurance,I,0,0,0,0,0,,0,,0,0,0,0,0
+,,,,,,,,,,,,,,,"""21e0bfbde2""",Variable,V,0,1,0,0,0,,0,variable,0,0,0,0,0,,"""b39e854db8""",Lates,La,0,0,0,0,0,,0,,0,0,0,0,0
+,,,,,,,,,,,,,,,"""afa891577e""",Transport,T,0,0,0,0,0,,0,(base+variable) / 26 * attendance_present,0,0,0,0,0,,"""9e83fbf5a8""",Leave without pay,LWP,0,0,0,0,0,,0,,0,0,0,0,0
+,,,,,,,,,,,,,,,"""14a2cde220""",Additional,Ad,0,1,0,0,0,,0,(base+variable) / 26 * attendance_present,0,0,0,0,0,,"""8c6ed732ca""",Absent,AB,0,0,0,0,0,,0,,0,0,0,0,0
+,"""عمر محمد امام""",الرئيسى,Yes,,Monthly,0,,0,0,0,Cash,,,,"""6d8eac81b5""",Basic,B,0,1,0,0,0,,0,base,0,0,0,0,0,,"""873f627a26""",Insurance,I,0,0,0,0,0,,0,,0,0,0,0,0
+,,,,,,,,,,,,,,,"""7351f730bb""",Variable,V,0,1,0,0,0,,0,variable,0,0,0,0,0,,"""a9fe404f48""",Lates,La,0,0,0,0,0,,0,,0,0,0,0,0
+,,,,,,,,,,,,,,,"""60f5df0413""",Transport,T,0,0,0,0,0,,0,(base+variable) / 26 * attendance_present,0,0,0,0,0,,"""8fbb60a4d1""",Leave without pay,LWP,0,0,0,0,0,,0,,0,0,0,0,0
+,,,,,,,,,,,,,,,"""052fcc2f84""",Additional,Ad,0,1,0,0,0,,0,(base+variable) / 26 * attendance_present,0,0,0,0,0,,"""bab5a3d2e8""",Absent,AB,0,0,0,0,0,,0,,0,0,0,0,0
+,"""سالى احمد عبدالمقصود""",الرئيسى,Yes,,Monthly,0,,0,0,0,Cash,,,,"""389149794d""",Basic,B,0,1,0,0,0,,0,base,0,0,0,0,0,,"""8f6bf62792""",Insurance,I,0,0,0,0,0,,0,,0,0,0,0,0
+,,,,,,,,,,,,,,,"""fd976e2742""",Variable,V,0,1,0,0,0,,0,variable,0,0,0,0,0,,"""790fb31022""",Lates,La,0,0,0,0,0,,0,,0,0,0,0,0
+,,,,,,,,,,,,,,,"""146d23f267""",Transport,T,0,0,0,0,0,,0,(base+variable) / 26 * attendance_present,0,0,0,0,0,,"""6a73ce8d02""",Leave without pay,LWP,0,0,0,0,0,,0,,0,0,0,0,0
+,,,,,,,,,,,,,,,"""f138b2598b""",Additional,Ad,0,1,0,0,0,,0,(base+variable) / 26 * attendance_present,0,0,0,0,0,,"""b4d880e93f""",Absent,AB,0,0,0,0,0,,0,,0,0,0,0,0
+,"""هناء الضبع نصار""",الرئيسى,Yes,,Monthly,0,,0,0,0,Cash,,,,"""1c76353950""",Basic,B,0,1,0,0,0,,0,base,0,0,0,0,0,,"""0b8a6020f2""",Insurance,I,0,0,0,0,0,,0,,0,0,0,0,0
+,,,,,,,,,,,,,,,"""47039ab9dd""",Variable,V,0,1,0,0,0,,0,variable,0,0,0,0,0,,"""196efb5b65""",Lates,La,0,0,0,0,0,,0,,0,0,0,0,0
+,,,,,,,,,,,,,,,"""091ef63b29""",Transport,T,0,0,0,0,0,,0,(base+variable) / 26 * attendance_present,0,0,0,0,0,,"""db09932580""",Leave without pay,LWP,0,0,0,0,0,,0,,0,0,0,0,0
+,,,,,,,,,,,,,,,"""1fe06edf78""",Additional,Ad,0,1,0,0,0,,0,(base+variable) / 26 * attendance_present,0,0,0,0,0,,"""cfcdbb02f2""",Absent,AB,0,0,0,0,0,,0,,0,0,0,0,0
+,"""شعبان محمود قرنى""",المعادى,Yes,,Monthly,0,,0,0,0,Cash,,,,"""377976c4c9""",Basic,B,0,1,0,0,0,,0,base,0,0,0,0,0,,"""15e042046c""",Insurance,I,0,0,0,0,0,,0,,0,0,0,0,0
+,,,,,,,,,,,,,,,"""7c1d2647cb""",Variable,V,0,1,0,0,0,,0,variable,0,0,0,0,0,,"""04101898c4""",Lates,La,0,0,0,0,0,,0,,0,0,0,0,0
+,,,,,,,,,,,,,,,"""c88f099aae""",Transport,T,0,0,0,0,0,,0,(base+variable) / 26 * attendance_present,0,0,0,0,0,,"""42c1a1933a""",Leave without pay,LWP,0,0,0,0,0,,0,,0,0,0,0,0
+,,,,,,,,,,,,,,,"""61c0587c52""",Additional,Ad,0,1,0,0,0,,0,(base+variable) / 26 * attendance_present,0,0,0,0,0,,"""b4e406ef07""",Absent,AB,0,0,0,0,0,,0,,0,0,0,0,0
+,"""حسام عادل صلاح""",الرئيسى,Yes,,Monthly,0,,0,0,0,Cash,,,,"""867a44ccca""",Basic,B,0,1,0,0,0,,0,base,0,0,0,0,0,,"""4fd9ceb10e""",Insurance,I,0,0,0,0,0,,0,,0,0,0,0,0
+,,,,,,,,,,,,,,,"""4e21b350d6""",Variable,V,0,1,0,0,0,,0,variable,0,0,0,0,0,,"""0ddbe42dec""",Lates,La,0,0,0,0,0,,0,,0,0,0,0,0
+,,,,,,,,,,,,,,,"""b1553b3e02""",Transport,T,0,0,0,0,0,,0,(base+variable) / 26 * attendance_present,0,0,0,0,0,,"""1006c0062d""",Leave without pay,LWP,0,0,0,0,0,,0,,0,0,0,0,0
+,,,,,,,,,,,,,,,"""1757d2bd0d""",Additional,Ad,0,1,0,0,0,,0,(base+variable) / 26 * attendance_present,0,0,0,0,0,,"""bf9f4db13f""",Absent,AB,0,0,0,0,0,,0,,0,0,0,0,0
+,"""هايدى حسن عيد""",الرئيسى,Yes,,Monthly,0,,0,0,0,Cash,,,,"""97c8c99d26""",Basic,B,0,1,0,0,0,,0,base,0,0,0,0,0,,"""6d2e2f352e""",Insurance,I,0,0,0,0,0,,0,,0,0,0,0,0
+,,,,,,,,,,,,,,,"""b0d917cc35""",Variable,V,0,1,0,0,0,,0,variable,0,0,0,0,0,,"""e14d4b69f0""",Lates,La,0,0,0,0,0,,0,,0,0,0,0,0
+,,,,,,,,,,,,,,,"""0da864144f""",Transport,T,0,0,0,0,0,,0,(base+variable) / 26 * attendance_present,0,0,0,0,0,,"""e3a6d64ef3""",Leave without pay,LWP,0,0,0,0,0,,0,,0,0,0,0,0
+,,,,,,,,,,,,,,,"""dbafbece45""",Additional,Ad,0,1,0,0,0,,0,(base+variable) / 26 * attendance_present,0,0,0,0,0,,"""38d24f3543""",Absent,AB,0,0,0,0,0,,0,,0,0,0,0,0
+,"""ايرينى نسيم نجيب""",الرئيسى,Yes,,Monthly,0,,0,0,0,Cash,,,,"""05c1c7f597""",Basic,B,0,1,0,0,0,,0,base,0,0,0,0,0,,"""fb339b5959""",Insurance,I,0,0,0,0,0,,0,,0,0,0,0,0
+,,,,,,,,,,,,,,,"""8e3fe329f4""",Variable,V,0,1,0,0,0,,0,variable,0,0,0,0,0,,"""e9c9dae3e6""",Lates,La,0,0,0,0,0,,0,,0,0,0,0,0
+,,,,,,,,,,,,,,,"""c134263fa2""",Transport,T,0,0,0,0,0,,0,(base+variable) / 26 * attendance_present,0,0,0,0,0,,"""d99da2b33b""",Leave without pay,LWP,0,0,0,0,0,,0,,0,0,0,0,0
+,,,,,,,,,,,,,,,"""2abee145ba""",Additional,Ad,0,1,0,0,0,,0,(base+variable) / 26 * attendance_present,0,0,0,0,0,,"""3d33138af3""",Absent,AB,0,0,0,0,0,,0,,0,0,0,0,0
+,"""مصطفى عبدالعزيز عبدالحليم""",الرئيسى,Yes,,Monthly,0,,0,0,0,Cash,,,,"""01a0f4eb37""",Basic,B,0,1,0,0,0,,0,base,0,0,0,0,0,,"""f168006571""",Insurance,I,0,0,0,0,0,,0,,0,0,0,0,0
+,,,,,,,,,,,,,,,"""6c0a4de636""",Variable,V,0,1,0,0,0,,0,variable,0,0,0,0,0,,"""edced1c06e""",Lates,La,0,0,0,0,0,,0,,0,0,0,0,0
+,,,,,,,,,,,,,,,"""5759636da2""",Transport,T,0,0,0,0,0,,0,(base+variable) / 26 * attendance_present,0,0,0,0,0,,"""8e659e2f27""",Leave without pay,LWP,0,0,0,0,0,,0,,0,0,0,0,0
+,,,,,,,,,,,,,,,"""3e293d3259""",Additional,Ad,0,1,0,0,0,,0,(base+variable) / 26 * attendance_present,0,0,0,0,0,,"""390ff70fc5""",Absent,AB,0,0,0,0,0,,0,,0,0,0,0,0
+,"""مصطفى عبدالهادى عبدالهادى""",الرئيسى,Yes,,Monthly,0,,0,0,0,Cash,,,,"""a2be126469""",Basic,B,0,1,0,0,0,,0,base,0,0,0,0,0,,"""513dbcde9a""",Insurance,I,0,0,0,0,0,,0,,0,0,0,0,0
+,,,,,,,,,,,,,,,"""eb5a4463c5""",Variable,V,0,1,0,0,0,,0,variable,0,0,0,0,0,,"""7e7b584cae""",Lates,La,0,0,0,0,0,,0,,0,0,0,0,0
+,,,,,,,,,,,,,,,"""6b884477fb""",Transport,T,0,0,0,0,0,,0,(base+variable) / 26 * attendance_present,0,0,0,0,0,,"""eb6e39ce6c""",Leave without pay,LWP,0,0,0,0,0,,0,,0,0,0,0,0
+,,,,,,,,,,,,,,,"""57b63a8d90""",Additional,Ad,0,1,0,0,0,,0,(base+variable) / 26 * attendance_present,0,0,0,0,0,,"""8893306596""",Absent,AB,0,0,0,0,0,,0,,0,0,0,0,0
+,"""مصطفى خميس عبدالهادى""",الرئيسى,Yes,,Monthly,0,,0,0,0,Cash,,,,"""01c592af60""",Basic,B,0,1,0,0,0,,0,base,0,0,0,0,0,,"""8096ba4e89""",Insurance,I,0,0,0,0,0,,0,,0,0,0,0,0
+,,,,,,,,,,,,,,,"""0ffe65803e""",Variable,V,0,1,0,0,0,,0,variable,0,0,0,0,0,,"""1f15d1cfcf""",Lates,La,0,0,0,0,0,,0,,0,0,0,0,0
+,,,,,,,,,,,,,,,"""b0da4290ba""",Transport,T,0,0,0,0,0,,0,(base+variable) / 26 * attendance_present,0,0,0,0,0,,"""94b0a3928b""",Leave without pay,LWP,0,0,0,0,0,,0,,0,0,0,0,0
+,,,,,,,,,,,,,,,"""eec0e89268""",Additional,Ad,0,1,0,0,0,,0,(base+variable) / 26 * attendance_present,0,0,0,0,0,,"""21dd832a4a""",Absent,AB,0,0,0,0,0,,0,,0,0,0,0,0
+,"""اسلام حسن عبدالمطلب""",الرئيسى,Yes,,Monthly,0,,0,0,0,Cash,,,,"""400c1ac637""",Basic,B,0,1,0,0,0,,0,base,0,0,0,0,0,,"""39d65d4d36""",Insurance,I,0,0,0,0,0,,0,,0,0,0,0,0
+,,,,,,,,,,,,,,,"""123cb852e3""",Variable,V,0,1,0,0,0,,0,variable,0,0,0,0,0,,"""b0b8452d89""",Lates,La,0,0,0,0,0,,0,,0,0,0,0,0
+,,,,,,,,,,,,,,,"""dc1c8b9b4b""",Transport,T,0,0,0,0,0,,0,(base+variable) / 26 * attendance_present,0,0,0,0,0,,"""2eb184a99e""",Leave without pay,LWP,0,0,0,0,0,,0,,0,0,0,0,0
+,,,,,,,,,,,,,,,"""8a81f2efa7""",Additional,Ad,0,1,0,0,0,,0,(base+variable) / 26 * attendance_present,0,0,0,0,0,,"""06e6ba9772""",Absent,AB,0,0,0,0,0,,0,,0,0,0,0,0
+,"""كريم سمهان عبدالعليم""",الرئيسى,Yes,,Monthly,0,,0,0,0,Cash,,,,"""ce942acfe1""",Basic,B,0,1,0,0,0,,0,base,0,0,0,0,0,,"""6c6e176a93""",Insurance,I,0,0,0,0,0,,0,,0,0,0,0,0
+,,,,,,,,,,,,,,,"""c9e1e1390f""",Variable,V,0,1,0,0,0,,0,variable,0,0,0,0,0,,"""7b5133cce6""",Lates,La,0,0,0,0,0,,0,,0,0,0,0,0
+,,,,,,,,,,,,,,,"""898f65d405""",Transport,T,0,0,0,0,0,,0,(base+variable) / 26 * attendance_present,0,0,0,0,0,,"""aa6c9058cd""",Leave without pay,LWP,0,0,0,0,0,,0,,0,0,0,0,0
+,,,,,,,,,,,,,,,"""fe14063475""",Additional,Ad,0,1,0,0,0,,0,(base+variable) / 26 * attendance_present,0,0,0,0,0,,"""e29def1b18""",Absent,AB,0,0,0,0,0,,0,,0,0,0,0,0
+,"""عماد عبدالصبور على""",الرئيسى,Yes,,Monthly,0,,0,0,0,Cash,,,,"""81353527a4""",Basic,B,0,1,0,0,0,,0,base,0,0,0,0,0,,"""a7264fb6d8""",Insurance,I,0,0,0,0,0,,0,,0,0,0,0,0
+,,,,,,,,,,,,,,,"""cbbe7846b6""",Variable,V,0,1,0,0,0,,0,variable,0,0,0,0,0,,"""3b9dcf7aac""",Lates,La,0,0,0,0,0,,0,,0,0,0,0,0
+,,,,,,,,,,,,,,,"""622bc6bf7f""",Transport,T,0,0,0,0,0,,0,(base+variable) / 26 * attendance_present,0,0,0,0,0,,"""36b351210b""",Leave without pay,LWP,0,0,0,0,0,,0,,0,0,0,0,0
+,,,,,,,,,,,,,,,"""2e2f65f754""",Additional,Ad,0,1,0,0,0,,0,(base+variable) / 26 * attendance_present,0,0,0,0,0,,"""590f586381""",Absent,AB,0,0,0,0,0,,0,,0,0,0,0,0
+,"""Hour Head Office""",الرئيسى,Yes,,Monthly,1,Basic,10,0,0,,,,,"""a30001001c""",Basic,B,0,1,0,0,0,,1,,0,0,0,0,0,,,,,,,,,,,,,,,,,
+,"""Month""",الرئيسى,Yes,,Monthly,0,,0,0,20000,,,,,"""49da2d605d""",Basic,B,0,1,0,0,0,,1,base,0,0,0,0,0,,"""c47393c6bc""",Absent,AB,0,0,0,0,0,,1,absent_days*((B+V)/30),0,0,0,0,0
+,,,,,,,,,,,,,,,"""ce4208393d""",Variable,V,0,1,0,0,0,,1,variable,0,0,0,0,0,,"""440e6a3a49""",Lates,La,0,0,0,0,0,,1,(((B+V)/30)*attendance_deduction_days)+ attendance_deduction_amount,0,0,0,0,0
+,,,,,,,,,,,,,,,"""9d5ff43055""",Leave Encashment,LE,0,1,0,0,0,,1,,0,0,0,0,0,,"""630e333634""",Leave without pay,LWP,0,0,0,0,0,,1,leave_without_pay*((B+V)/30),0,0,0,0,0
+,,,,,,,,,,,,,,,"""11f4286345""",Flexible Benefit,FB,0,1,1,0,0,,0,,0,0,0,0,0,,,,,,,,,,,,,,,,,
+,"""Hours""",كل الفروع,Yes,,Monthly,1,Basic,10,0,0,,,,,"""b8fc85b67d""",Basic,B,0,1,0,0,0,,1,,0,0,0,0,0,,,,,,,,,,,,,,,,,

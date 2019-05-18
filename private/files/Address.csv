@@ -1,0 +1,38 @@
+Data Import Template,,,,,,,,,,,,
+Table:,Address,,,,,,,,,,,
+,,,,,,,,,,,,
+,,,,,,,,,,,,
+Notes:,,,,,,,,,,,,
+Please do not change the template headings.,,,,,,,,,,,,
+First data column must be blank.,,,,,,,,,,,,
+"If you are uploading new records, leave the ""name"" (ID) column blank.",,,,,,,,,,,,
+"If you are uploading new records, ""Naming Series"" becomes mandatory, if present.",,,,,,,,,,,,
+Only mandatory fields are necessary for new records. You can delete non-mandatory columns if you wish.,,,,,,,,,,,,
+"For updating, you can update only selective columns.",,,,,,,,,,,,
+You can only upload upto 5000 records in one go. (may be less in some cases),,,,,,,,,,,,
+,,,,,,,,,,,,
+DocType:,Address,,,,,,,,,~,Dynamic Link,links
+Column Labels:,Address Title,Address Type,Address Line 1,City/Town,Country,Postal Code,Email Address,Phone,Fax,,Link DocType,Link Name
+Column Name:,address_title,address_type,address_line1,city,country,pincode,email_id,phone,fax,~,link_doctype,link_name
+Mandatory:,Yes,Yes,Yes,Yes,Yes,No,No,No,No,,Yes,Yes
+Type:,Data,Select,Data,Data,Link,Data,Data,Data,Data,,Link,Dynamic Link
+Info:,,"One of: Billing, Shipping, Office, Personal, Plant, Postal, Shop, Subsidiary, Warehouse, Current, Permanent, Other",,,Valid Country,,,,,,Valid DocType,
+Start entering data below this line,,,,,,,,,,,,
+,El Bertawy Market,Billing,6 october city - 3rd district ,6 october city,Egypt,,Hr@americanacademyeg.com,1002185212,,,Supplier,El Bertawy Market
+,El Moazen For Print,Billing,6 october city - 5th district ,6 october city,Egypt,,bdr_100000@yahoo.com ,1225850894,,,Supplier,El Moazen For Print
+,"Sinbad Express For
+ Trading & Air Conditioning",Billing,"6 october city - 8th district 
+- buliding 128",6 october city,Egypt,,,0123664424 - 38365038,,,Supplier,"Sinbad Express For
+ Trading & Air Conditioning"
+,El Dora For Print,Billing,El - dokki - Ben El tharayat - Giza,6 october city,Egypt,,Maiada@dorraprint.com,233371456,,,Supplier,El Dora For Print
+,Nahdet Masr ,Billing,"21 street Ahmed orabi 
+- El mohandessen",6 october city,Egypt,,walid.sayed@nahdetmisr.com ,16766,33462576,,Supplier,Nahdet Masr 
+,Mouse For Marketing ,Billing,86 el shiekh zaid - 1st district ,6 october city,Egypt,,,,,,Supplier,Mouse For Marketing 
+,Aghakhan Elevators,Billing,16 Street - aghakhan el khalafawy,6 october city,Egypt,,aghakhanelvators2@yahoo.com ,22065694 - 22065695,,,Supplier,Aghakhan Elevators
+,Oriental Supplies,Billing,17 Street - 7 district - 6 october city,6 october city,Egypt,,ortsupplies.6oct@hotmail.com ,1009396365,,,Supplier,Oriental Supplies
+,ERP Next Company,Billing,"367 Street - Sayed El barbary
+ - hadayek El koba - Cairo",6 october city,Egypt,,m.aboali@inet.works ,"00971506252019 
+- 01007489933",,,Supplier,ERP Next Company
+,yellowpages Masr ,Billing,12 degla - Maadi - Cairo ,6 october city,Egypt,,a.shafie@yellow.com.eg ,25203206,5164092,,Supplier,yellowpages Masr 
+,ICDL Arabia Egypt,Billing,"Building No.44 Palestine
+ Street New Maadi",6 october city,Egypt,,,227547349,,,Supplier,ICDL Arabia Egypt

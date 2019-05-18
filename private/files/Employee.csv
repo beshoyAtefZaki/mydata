@@ -1,0 +1,125 @@
+Data Import Template,,,,,,,,,,,,
+Table:,Employee,,,,,,,,,,,
+,,,,,,,,,,,,
+,,,,,,,,,,,,
+Notes:,,,,,,,,,,,,
+Please do not change the template headings.,,,,,,,,,,,,
+First data column must be blank.,,,,,,,,,,,,
+"If you are uploading new records, leave the ""name"" (ID) column blank.",,,,,,,,,,,,
+"If you are uploading new records, ""Naming Series"" becomes mandatory, if present.",,,,,,,,,,,,
+Only mandatory fields are necessary for new records. You can delete non-mandatory columns if you wish.,,,,,,,,,,,,
+"For updating, you can update only selective columns.",,,,,,,,,,,,
+You can only upload upto 5000 records in one go. (may be less in some cases),,,,,,,,,,,,
+,,,,,,,,,,,,
+DocType:,Employee,,,,,,,,,,,
+Column Labels:,Series,First Name,Company,Status,Gender,Date of Birth,Date of Joining,Shift Type,Employment Type,Department,Reports to,Branchs
+Column Name:,naming_series,first_name,company,status,gender,date_of_birth,date_of_joining,shift_type,employment_type,department,reports_to,branchs
+Mandatory:,Yes,Yes,Yes,Yes,Yes,Yes,Yes,No,No,No,No,No
+Type:,Select,Data,Link,Select,Link,Date,Date,Link,Link,Link,Link,Data
+Info:,One of: HR-EMP-,,Valid Company,"One of: Active, Left",Valid Gender,dd-mm-yyyy,dd-mm-yyyy,Valid Shift Type,Valid Employment Type,Valid Department,Valid Employee,Valid Branchs
+Start entering data below this line,,,,,,,,,,,,
+,HR-EMP-,د/حسام,الرئيسى,Active,Male,,01-01-2005,,,,,
+,HR-EMP-,عماد عبدالصبور على,الرئيسى,Active,Male,01-09-1990,29-09-2015,عماد عبدالصبور على,,الموارد البشرية - MB,,
+,HR-EMP-,كريم سمهان عبدالعليم,الرئيسى,Active,Male,04-01-1997,23-09-2018,كريم سمهان عبدالعليم,,الموارد البشرية - MB,,
+,HR-EMP-,اسلام حسن عبدالمطلب,الرئيسى,Active,Male,23-01-1992,09-02-2015,اسلام حسن عبدالمطلب,,الحسابات - MB,,
+,HR-EMP-,مصطفى خميس عبدالهادى,الرئيسى,Active,Male,05-10-1991,17-12-2017,مصطفى خميس عبدالهادى,,الحسابات - MB,,
+,HR-EMP-,مصطفى عبدالهادى عبدالهادى,الرئيسى,Active,Male,06-01-1986,19-11-2014,مصطفى عبدالهادى عبدالهادى,,الحسابات - MB,,
+,HR-EMP-,مصطفى عبدالعزيز عبدالحليم ,الرئيسى,Active,Male,01-01-1983,01-02-2008,مصطفى عبدالعزيز عبدالحليم ,,الشئون القانونية - MB,,
+,HR-EMP-,ايرينى نسيم نجيب,الرئيسى,Active,Female,16-05-1994,10-01-2018,ايرينى نسيم نجيب,,السكرتارية - MB,,
+,HR-EMP-,هايدى حسن عيد,الرئيسى,Active,Female,16-11-1994,29-10-2018,هايدى حسن عيد,,السكرتارية - MB,,
+,HR-EMP-,حسام عادل صلاح ,الرئيسى,Active,Male,10-10-1992,02-02-2015,حسام عادل صلاح ,,السكرتارية - MB,,
+,HR-EMP-,شعبان محمود قرنى ,المعادى,Active,Male,09-04-1987,14-07-2015,شعبان محمود قرنى ,,الشئون الادارية - M,,
+,HR-EMP-,هناء الضبع نصار,الرئيسى,Active,Female,26-09-1977,12-02-2018,هناء الضبع نصار,,السكرتارية - MB,,
+,HR-EMP-,سالى احمد عبدالمقصود,الرئيسى,Active,Female,10-03-2001,07-10-2018,سالى احمد عبدالمقصود,,السكرتارية - MB,,
+,HR-EMP-,عمر محمد امام,الرئيسى,Active,Male,02-10-1994,23-10-2018,عمر محمد امام,,السكرتارية - MB,,
+,HR-EMP-,محمد مختار محمد السيد,الرئيسى,Active,Male,28-08-1991,23-10-2016,محمد مختار محمد السيد,,الدعم الفنى - MB,,
+,HR-EMP-,محمود سامى محمود محمد,الرئيسى,Active,Male,22-07-1993,06-10-2018,محمود سامى محمود محمد,,الدعم الفنى - MB,,
+,HR-EMP-,سلامه محمد عز الدين,الرئيسى,Active,Male,26-06-1980,01-07-2009,سلامه محمد عز الدين,,العمليات - MB,,
+,HR-EMP-,خالد عاطف يونس,زايد,Active,Male,30-09-1986,11-04-2009,خالد عاطف يونس,,المبيعات - bb,,
+,HR-EMP-,وليد محمد محمد الطباخ,المعادى,Active,Male,11-10-1987,09-09-2015,وليد محمد محمد الطباخ,,المبيعات - M,,
+,HR-EMP-,وائل فايز محمد,الرئيسى,Active,Male,03-06-1978,13-12-2015,وائل فايز محمد,,المبيعات - MB,,
+,HR-EMP-,كرستين اشرف دوس,الرئيسى,Active,Male,21-07-1975,19-02-2018,كرستين اشرف دوس,,المبيعات - MB,,
+,HR-EMP-,كريم عبدالسلام محمود,مدينة نصر,Active,Male,15-09-1987,19-06-2018,كريم عبدالسلام محمود,,المبيعات - b,,
+,HR-EMP-,امنية عامر حسن,المعادى,Active,Female,15-11-1993,04-11-2018,امنية عامر حسن,,المبيعات - M,,
+,HR-EMP-,ندى يوسف مأمون,المعادى,Active,Female,02-09-1995,17-11-2018,ندى يوسف مأمون,,المبيعات - M,,
+,HR-EMP-,كمال مسعد عبدالعزيز,الرئيسى,Active,Male,02-01-1985,17-11-2018,كمال مسعد عبدالعزيز,,مبيعات خارجية - MB,,
+,HR-EMP-,عماد حنا ميخائيل,الرئيسى,Active,Male,16-04-1973,14-06-2014,عماد حنا ميخائيل,,التنسيق - MB,,
+,HR-EMP-,احمد سامى محمود,الرئيسى,Active,Male,29-05-1989,17-12-2016,احمد سامى محمود,,التنسيق - MB,,
+,HR-EMP-,محمد مصطفى عبدالسلام,الرئيسى,Active,Male,24-08-1968,11-02-2012,محمد مصطفى عبدالسلام,,محاضر - MB,,
+,HR-EMP-,عمرو محمد فؤاد,زايد,Active,Male,30-09-1986,01-12-2013,عمرو محمد فؤاد,,محاضر - bb,,
+,HR-EMP-,صفا نصر عبدالعال,الرئيسى,Active,Female,01-03-1993,25-02-2018,صفا نصر عبدالعال,,محاضر - MB,,
+,HR-EMP-,هند اشرف انور,الحضانة,Active,Female,06-07-1986,10-09-2017,هند اشرف انور,,الحضانة - ا,,
+,HR-EMP-,هبة عطية حسن,الحضانة,Active,Female,19-06-1981,25-12-2014,هبة عطية حسن,,الحضانة - ا,,
+,HR-EMP-,سارة نبيل عشماوى,الحضانة,Active,Female,29-07-1992,01-10-2017,سارة نبيل عشماوى,,الحضانة - ا,,
+,HR-EMP-,امينة محمد عبدالرحمن,الحضانة,Active,Female,18-05-1990,21-01-2018,امينة محمد عبدالرحمن,,الحضانة - ا,,
+,HR-EMP-,Amanda nadia chizimba,الحضانة,Active,Female,18-12-1998,01-06-2018,Amanda nadia chizimba,,الحضانة - ا,,
+,HR-EMP-,اسماء محمد احمد,الحضانة,Active,Female,01-08-1996,07-10-2018,اسماء محمد احمد,,الحضانة - ا,,
+,HR-EMP-,سيد رمضان سيد,الحضانة,Active,Male,02-05-1985,01-07-2007,سيد رمضان سيد,,الحضانة - ا,,
+,HR-EMP-,ايمان بلال محمد,الحضانة,Active,Female,01-07-1977,01-03-2014,ايمان بلال محمد,,الحضانة - ا,,
+,HR-EMP-,ياسمين سيد محمد,الحضانة,Active,Female,17-05-1999,10-06-2015,ياسمين سيد محمد,,الحضانة - ا,,
+,HR-EMP-,هدى عبدالرشيد عبدالعاطى,الحضانة,Active,Female,11-06-1988,01-01-2017,هدى عبدالرشيد عبدالعاطى,,الحضانة - ا,,
+,HR-EMP-,نورا فتحى محمد,الحضانة,Active,Female,29-08-1987,05-10-2017,نورا فتحى محمد,,الحضانة - ا,,
+,HR-EMP-,سماح نبيل زكى ,الحضانة,Active,Female,08-02-2003,28-10-2010,سماح نبيل زكى ,,الحضانة - ا,,
+,HR-EMP-,محمد مصطفي ابراهيم,كل الفروع,Active,Male,,23-07-2012,,Part-time,,,الرئيسى - المعادى -زايد- م.نصر
+,HR-EMP-,سمر سعد,كل الفروع,Active,Female,,18-07-2016,,Part-time,,,الرئيسي
+,HR-EMP-,اسراء محمد احمد,كل الفروع,Active,Female,,28-05-2017,,Part-time,,,رئيسى -زايد 
+,HR-EMP-,محمد وحيد ,كل الفروع,Active,Male,,02-02-2017,,Part-time,,,الرئيسى 
+,HR-EMP-,عبد العزيز سعيد عبد العزيز,كل الفروع,Active,Male,,14-12-2015,,Part-time,,,الرئيسى
+,HR-EMP-,ياسر ابراهيم,كل الفروع,Active,Male,,01-03-2014,,Part-time,,,زايد
+,HR-EMP-,حسين مصطفي ,كل الفروع,Active,Male,,29-03-2016,,Part-time,,,زايد -رئيسى
+,HR-EMP-,سلمي مجدي,كل الفروع,Active,Female,,25-02-2016,,Part-time,,,زايد -رئيسى
+,HR-EMP-,ايه مصطفي انيس,كل الفروع,Active,Female,,19-01-2017,,Part-time,,,الرئيسي
+,HR-EMP-,نورهان عبدالجواد,كل الفروع,Active,Female,,22-05-2016,,Part-time,,,الرئيسي
+,HR-EMP-,ريم أحمد رجائي,كل الفروع,Active,Female,,01-03-2017,,Part-time,,,الرئيسي
+,HR-EMP-,ماري فؤاد زكري,كل الفروع,Active,Female,,28-03-2017,,Part-time,,,الرئيسي - زايد
+,HR-EMP-,احمد محمد فهمى ,كل الفروع,Active,Male,,31-03-2017,,Part-time,,,الرئيسى 
+,HR-EMP-,مي عزت,كل الفروع,Active,Female,,01-01-2018,,Part-time,,,الرئيسي
+,HR-EMP-,خلود ايهاب احمد,كل الفروع,Active,Female,,05-04-2017,,Part-time,,,الرئيسى 
+,HR-EMP-,خلاد السيد,كل الفروع,Active,Female,,04-09-2016,,Part-time,,,الرئيسي
+,HR-EMP-,تقي محمد,كل الفروع,Active,Female,,01-01-2018,,Part-time,,,الرئيسي
+,HR-EMP-,محمود عنتر ,كل الفروع,Active,Male,,25-11-2015,,Part-time,,,زايد - رئيسى 
+,HR-EMP-,شيماء اسامه مصطفي,كل الفروع,Active,Female,,16-03-2017,,Part-time,,,الرئيسى 
+,HR-EMP-,صادق عبدالله,كل الفروع,Active,Male,,18-01-2017,,Part-time,,,الرئيسى
+,HR-EMP-,اسماء سعيد محمد,كل الفروع,Active,Female,,12-04-2017,,Part-time,,,الرئيسى 
+,HR-EMP-,ياسمين السيد,كل الفروع,Active,Female,,11-12-2016,,Part-time,,,الرئيسى - زايد 
+,HR-EMP-,هشام شعراوي,كل الفروع,Active,Male,,21-04-2012,,Part-time,,,رئيسى - معادى
+,HR-EMP-,خالد ابودره,كل الفروع,Active,Male,,25-01-2014,,Part-time,,,رئيسى - معادى
+,HR-EMP-,نهلة المعداوي ,كل الفروع,Active,Female,,14-09-2013,,Part-time,,,رئيسى - معادى
+,HR-EMP-,محمد ابراهيم ,كل الفروع,Active,Male,,13-10-2015,,Part-time,,,رئيسى - معادى
+,HR-EMP-,وسام محمود,كل الفروع,Active,Female,,20-04-2015,,Part-time,,,رئيسى - معادى
+,HR-EMP-,اسماء ناصر,كل الفروع,Active,Female,,26-08-2015,,Part-time,,,المعادي
+,HR-EMP-,وائل الشيخ ,كل الفروع,Active,Male,,25-07-2017,,Part-time,,,المعادى 
+,HR-EMP-,عمر عبد العزيز,كل الفروع,Active,Male,,01-12-2016,,Part-time,,,المعادي
+,HR-EMP-,ليليان فيكتور,كل الفروع,Active,Female,,10-01-2017,,Part-time,,,المعادي
+,HR-EMP-,ميادة احمد,كل الفروع,Active,Female,,01-03-2017,,Part-time,,,المعادي
+,HR-EMP-,مروة السيد ,كل الفروع,Active,Female,,05-04-2017,,Part-time,,,المعادى 
+,HR-EMP-,احمد جابر ,كل الفروع,Active,Male,,30-07-2017,,Part-time,,,المعادى 
+,HR-EMP-,ايمان عاطف ,كل الفروع,Active,Female,,20-02-2017,,Part-time,,,المعادى 
+,HR-EMP-,عنان ,كل الفروع,Active,Female,,10-04-2017,,Part-time,,,
+,HR-EMP-,ايمان عاطف حسن,كل الفروع,Active,Female,,25-05-2016,,Part-time,,,المعادى 
+,HR-EMP-,مروه محمود ابراهيم,كل الفروع,Active,Female,,03-07-2016,,Part-time,,,زايد
+,HR-EMP-,نهير بهاء,كل الفروع,Active,Female,,22-02-2016,,Part-time,,,زايد
+,HR-EMP-,سلمي الورداني,كل الفروع,Active,Female,,23-04-2014,,Part-time,,,زايد
+,HR-EMP-,محمد احمد حسن,كل الفروع,Active,Male,,22-05-2017,,Part-time,,,زايد - معادى 
+,HR-EMP-,ثروت محمد عكاشه,كل الفروع,Active,Male,,08-05-2016,,Part-time,,,زايد
+,HR-EMP-,اشرقت رجائي,كل الفروع,Active,Female,,31-07-2017,,Part-time,,,زايد
+,HR-EMP-,ساره طارق,كل الفروع,Active,Female,,16-03-2013,,Part-time,,,رئيسى - زايد 
+,HR-EMP-,احمد سمير,كل الفروع,Active,Male,,01-03-2012,,Part-time,,,رئيسى - زايد 
+,HR-EMP-,ممدوح مصطفى ,كل الفروع,Active,Male,,11-01-2017,,Part-time,,,زايد
+,HR-EMP-,منه الله صلاح الدين حجازى,كل الفروع,Active,Female,,26-03-2017,,Part-time,,,زايد
+,HR-EMP-,ماريهان اكسم,كل الفروع,Active,Female,,15-04-2017,,Part-time,,,المعادى - شركات
+,HR-EMP-,مارينا رأفت,كل الفروع,Active,Female,,15-04-2017,,Part-time,,,المعادى - شركات
+,HR-EMP-,على محمد محمد حسن ,كل الفروع,Active,Male,,03-12-2016,,Part-time,,,معادى - اكتوبر - شركات
+,HR-EMP-,ايهاب منصور ,كل الفروع,Active,Male,,12-11-2016,,Part-time,,,شركات 
+,HR-EMP-,نسمة ,كل الفروع,Active,Female,,01-05-2016,,Part-time,,,الرئيسى 
+,HR-EMP-,على مصطفى ,كل الفروع,Active,Male,,09-08-2017,,Part-time,,,رئيسى - زايد 
+,HR-EMP-,محمد كساب ,كل الفروع,Active,Male,,01-11-2017,,Part-time,,,شركات - معادى
+,HR-EMP-,قاسم محمد قاسم,كل الفروع,Active,Male,,12-11-2017,,Part-time,,,شركات - معادى
+,HR-EMP-,محمد كامل منسى ,كل الفروع,Active,Male,,20-12-2017,,Part-time,,,رئيسى 
+,HR-EMP-,سارة عادل ,كل الفروع,Active,Female,,15-01-2018,,Part-time,,,رئيسى 
+,HR-EMP-,سارة عادل ,كل الفروع,Active,Female,,06-01-2018,,Part-time,,,رئيسى 
+,HR-EMP-,عاكف ابراهيم عبدالله ,كل الفروع,Active,Male,,24-09-2017,,Part-time,,,معادى
+,HR-EMP-,صفا ابراهيم ,كل الفروع,Active,Female,,05-10-2017,,Part-time,,,رئيسى 
+,HR-EMP-,شريف بشارى ,كل الفروع,Active,Male,,04-12-2017,,Part-time,,,رئيسى
+,HR-EMP-,محمد حسين ,كل الفروع,Active,Male,,02-01-2018,,Part-time,,,رئيسى
+,HR-EMP-,عماد حمدى ,كل الفروع,Active,Male,,01-11-2015,,Part-time,,,رئيسى - زايد 

@@ -1,0 +1,41 @@
+Data Import Template,,,,,,,,
+Table:,Account,,,,,,,
+,,,,,,,,
+,,,,,,,,
+Notes:,,,,,,,,
+Please do not change the template headings.,,,,,,,,
+First data column must be blank.,,,,,,,,
+"If you are uploading new records, leave the ""name"" (ID) column blank.",,,,,,,,
+"If you are uploading new records, ""Naming Series"" becomes mandatory, if present.",,,,,,,,
+Only mandatory fields are necessary for new records. You can delete non-mandatory columns if you wish.,,,,,,,,
+"For updating, you can update only selective columns.",,,,,,,,
+You can only upload upto 5000 records in one go. (may be less in some cases),,,,,,,,
+,,,,,,,,
+DocType:,Account,,,,,,,
+Column Labels:,Account Name,Company,Parent Account,Account Number,Is Group,Root Type,Report Type,Currency
+Column Name:,account_name,company,parent_account,account_number,is_group,root_type,report_type,account_currency
+Mandatory:,Yes,Yes,Yes,No,No,No,No,No
+Type:,Data,Link,Link,Data,Check,Select,Select,Link
+Info:,,Valid Company,Valid Account,,0 or 1,"One of: Asset, Liability, Income, Expense, Equity","One of: Balance Sheet, Profit and Loss",Valid Currency
+Start entering data below this line,,,,,,,,
+,TtijariWafa - Sub 0,كل الفروع,1200 - Bank Accounts - TCO,,0,Asset,Balance Sheet,EGP
+,TtijariWafa - USD,كل الفروع,1200 - Bank Accounts - TCO,,0,Asset,Balance Sheet,USD
+,EGB - Individual USD,كل الفروع,1200 - Bank Accounts - TCO,,0,Asset,Balance Sheet,USD
+,EGB - Company,كل الفروع,1200 - Bank Accounts - TCO,,0,Asset,Balance Sheet,EGP
+,EGB - Personal,كل الفروع,1200 - Bank Accounts - TCO,,0,Asset,Balance Sheet,EGP
+,EGB - Personal Per Day,كل الفروع,1200 - Bank Accounts - TCO,,0,Asset,Balance Sheet,EGP
+,EGB - Certificate,كل الفروع,1200 - Bank Accounts - TCO,,0,Asset,Balance Sheet,EGP
+,CIB - Certificate,كل الفروع,1200 - Bank Accounts - TCO,,0,Asset,Balance Sheet,EGP
+,AAIB - Individual,كل الفروع,1200 - Bank Accounts - TCO,,0,Asset,Balance Sheet,EGP
+,CIB - Saving,كل الفروع,1200 - Bank Accounts - TCO,,0,Asset,Balance Sheet,EGP
+,CIB - Current,كل الفروع,1200 - Bank Accounts - TCO,,0,Asset,Balance Sheet,EGP
+,CIB - USD,كل الفروع,1200 - Bank Accounts - TCO,,0,Asset,Balance Sheet,USD
+,CIB Personal Saving Per Day,كل الفروع,1200 - Bank Accounts - TCO,,0,Asset,Balance Sheet,EGP
+,Arab African Bank - American Academy Card,كل الفروع,1200 - Bank Accounts - TCO,,0,Asset,Balance Sheet,EGP
+,QNB - Current,كل الفروع,1200 - Bank Accounts - TCO,,0,Asset,Balance Sheet,EGP
+,QNB - Individual,كل الفروع,1200 - Bank Accounts - TCO,,0,Asset,Balance Sheet,EGP
+,EGB - Credit Card,كل الفروع,1200 - Bank Accounts - TCO,,0,Asset,Balance Sheet,EGP
+,CIB - Credit Card,كل الفروع,1200 - Bank Accounts - TCO,,0,Asset,Balance Sheet,EGP
+,Eslam Hassan Net Card,كل الفروع,1200 - Bank Accounts - TCO,,0,Asset,Balance Sheet,EGP
+,Hossam Adel Net Card,كل الفروع,1200 - Bank Accounts - TCO,,0,Asset,Balance Sheet,EGP
+,QNB -Internet Card,كل الفروع,1200 - Bank Accounts - TCO,,0,Asset,Balance Sheet,EGP

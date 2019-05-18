@@ -1,0 +1,22 @@
+Data Import Template,,,
+Table:,Item Price,,
+,,,
+,,,
+Notes:,,,
+Please do not change the template headings.,,,
+First data column must be blank.,,,
+"If you are uploading new records, leave the ""name"" (ID) column blank.",,,
+"If you are uploading new records, ""Naming Series"" becomes mandatory, if present.",,,
+Only mandatory fields are necessary for new records. You can delete non-mandatory columns if you wish.,,,
+"For updating, you can update only selective columns.",,,
+You can only upload upto 5000 records in one go. (may be less in some cases),,,
+,,,
+DocType:,Item Price,,
+Column Labels:,Item Code,Price List,Rate
+Column Name:,item_code,price_list,price_list_rate
+Mandatory:,Yes,Yes,Yes
+Type:,Link,Link,Currency
+Info:,Valid Item,Valid Price List,
+Start entering data below this line,,,
+,«” Ìﬂ ‰ﬁÊœ ( 250 Ã—«„ ),Standard Buying,6
+,«” Ìﬂ… ,Standard Buying,3

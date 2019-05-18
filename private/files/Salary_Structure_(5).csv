@@ -1,0 +1,62 @@
+Data Import Template,,,,,,,,,,,,
+Table:,Salary Structure,,,,,,,,,,,
+,,,,,,,,,,,,
+,,,,,,,,,,,,
+Notes:,,,,,,,,,,,,
+Please do not change the template headings.,,,,,,,,,,,,
+First data column must be blank.,,,,,,,,,,,,
+"If you are uploading new records, leave the ""name"" (ID) column blank.",,,,,,,,,,,,
+"If you are uploading new records, ""Naming Series"" becomes mandatory, if present.",,,,,,,,,,,,
+Only mandatory fields are necessary for new records. You can delete non-mandatory columns if you wish.,,,,,,,,,,,,
+"For updating, you can update only selective columns.",,,,,,,,,,,,
+You can only upload upto 5000 records in one go. (may be less in some cases),,,,,,,,,,,,
+,,,,,,,,,,,,
+DocType:,Salary Structure,,,,,,,,~,Salary Detail,earnings,
+Column Labels:,ID,Company,Is Active,Payroll Frequency,Salary Slip Based on Timesheet,Salary Component,Hour Rate,Mode of Payment,,Component,Abbr,Formula
+Column Name:,name,company,is_active,payroll_frequency,salary_slip_based_on_timesheet,salary_component,hour_rate,mode_of_payment,~,salary_component,abbr,formula
+Mandatory:,Yes,Yes,Yes,No,No,No,No,No,,Yes,No,No
+Type:,Data,Link,Select,Select,Check,Link,Currency,Link,,Link,Data,Code
+Info:,,Valid Company,"One of: Yes, No","One of: Monthly, Fortnightly, Bimonthly, Weekly, Daily",0 or 1,Valid Salary Component,,Valid Mode of Payment,,Valid Salary Component,,
+Start entering data below this line,,,,,,,,,,,,
+,سارة عادل,كل الفروع,Yes,Monthly,1,Basic,50,Cash,,Basic,B,base
+,ساره طارق,كل الفروع,Yes,Monthly,1,Basic,40,Cash,,Basic,B,base
+,سلمي الورداني,كل الفروع,Yes,Monthly,1,Basic,20,Cash,,Basic,B,base
+,سلمي مجدي,كل الفروع,Yes,Monthly,1,Basic,40,Cash,,Basic,B,base
+,سمر سعد,كل الفروع,Yes,Monthly,1,Basic,35,Cash,,Basic,B,base
+,شريف بشارى,كل الفروع,Yes,Monthly,1,Basic,100,Cash,,Basic,B,base
+,شيماء اسامه مصطفي,كل الفروع,Yes,Monthly,1,Basic,40,Cash,,Basic,B,base
+,صادق عبدالله,كل الفروع,Yes,Monthly,1,Basic,35,Cash,,Basic,B,base
+,صفا ابراهيم,كل الفروع,Yes,Monthly,1,Basic,60,Cash,,Basic,B,base
+,عاكف ابراهيم عبدالله,كل الفروع,Yes,Monthly,1,Basic,40,Cash,,Basic,B,base
+,عبد العزيز سعيد عبد العزيز,كل الفروع,Yes,Monthly,1,Basic,35,Cash,,Basic,B,base
+,على محمد محمد حسن,كل الفروع,Yes,Monthly,1,Basic,40,Cash,,Basic,B,base
+,على مصطفى,كل الفروع,Yes,Monthly,1,Basic,30,Cash,,Basic,B,base
+,عماد حمدى,كل الفروع,Yes,Monthly,1,Basic,45,Cash,,Basic,B,base
+,عمر عبد العزيز,كل الفروع,Yes,Monthly,1,Basic,30,Cash,,Basic,B,base
+,عنان,كل الفروع,Yes,Monthly,1,Basic,35,Cash,,Basic,B,base
+,قاسم محمد قاسم,كل الفروع,Yes,Monthly,1,Basic,60,Cash,,Basic,B,base
+,ليليان فيكتور,كل الفروع,Yes,Monthly,1,Basic,60,Cash,,Basic,B,base
+,ماري فؤاد زكري,كل الفروع,Yes,Monthly,1,Basic,30,Cash,,Basic,B,base
+,مارينا رأفت,كل الفروع,Yes,Monthly,1,Basic,40,Cash,,Basic,B,base
+,ماريهان اكسم,كل الفروع,Yes,Monthly,1,Basic,40,Cash,,Basic,B,base
+,محمد ابراهيم,كل الفروع,Yes,Monthly,1,Basic,140,Cash,,Basic,B,base
+,محمد احمد حسن,كل الفروع,Yes,Monthly,1,Basic,35,Cash,,Basic,B,base
+,محمد حسين,كل الفروع,Yes,Monthly,1,Basic,100,Cash,,Basic,B,base
+,محمد كامل منسى,كل الفروع,Yes,Monthly,1,Basic,50,Cash,,Basic,B,base
+,محمد كساب,كل الفروع,Yes,Monthly,1,Basic,40,Cash,,Basic,B,base
+,محمد مصطفي ابراهيم,كل الفروع,Yes,Monthly,1,Basic,40,Cash,,Basic,B,base
+,محمد وحيد,كل الفروع,Yes,Monthly,1,Basic,50,Cash,,Basic,B,base
+,محمود عنتر,كل الفروع,Yes,Monthly,1,Basic,50,Cash,,Basic,B,base
+,مروه محمود ابراهيم,كل الفروع,Yes,Monthly,1,Basic,30,Cash,,Basic,B,base
+,ممدوح مصطفى,كل الفروع,Yes,Monthly,1,Basic,30,Cash,,Basic,B,base
+,منه الله صلاح الدين حجازى,كل الفروع,Yes,Monthly,1,Basic,35,Cash,,Basic,B,base
+,ميادة احمد,كل الفروع,Yes,Monthly,1,Basic,50,Cash,,Basic,B,base
+,نسمة,كل الفروع,Yes,Monthly,1,Basic,35,Cash,,Basic,B,base
+,نهلة المعداوي,كل الفروع,Yes,Monthly,1,Basic,125,Cash,,Basic,B,base
+,نهير بهاء,كل الفروع,Yes,Monthly,1,Basic,35,Cash,,Basic,B,base
+,نورهان عبدالجواد,كل الفروع,Yes,Monthly,1,Basic,35,Cash,,Basic,B,base
+,هشام شعراوي,كل الفروع,Yes,Monthly,1,Basic,150,Cash,,Basic,B,base
+,وائل الشيخ,كل الفروع,Yes,Monthly,1,Basic,125,Cash,,Basic,B,base
+,وسام محمود,كل الفروع,Yes,Monthly,1,Basic,100,Cash,,Basic,B,base
+,ياسر ابراهيم,كل الفروع,Yes,Monthly,1,Basic,30,Cash,,Basic,B,base
+,ياسمين السيد,كل الفروع,Yes,Monthly,1,Basic,35,Cash,,Basic,B,base

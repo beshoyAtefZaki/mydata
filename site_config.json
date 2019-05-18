@@ -1,0 +1,14 @@
+{
+ "db_name": "_eae7694acf6a6d1d", 
+ "db_password": "Zw08df9hXZIiiuuR",
+ "host_name": "aatcstg.inet.works",
+ "db_type": "mariadb", 
+ "limits": {
+  "space_usage": {
+   "backup_size": 5.0, 
+   "database_size": 44.92, 
+   "files_size": 2.0, 
+   "total": 51.92
+  }
+ }
+}
